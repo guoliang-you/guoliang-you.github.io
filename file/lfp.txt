@@ -1,0 +1,6 @@
+@article{you2024lfp,
+  title={LFP: Efficient and Accurate End-to-End Lane-Level Planning via Camera-LiDAR Fusion},
+  author={You, Guoliang and Chu, Xiaomeng and Duan, Yifan and Li, Xingchen and Zhang, Sha and Ji, Jianmin and Zhang, Yanyong},
+  journal={arXiv preprint arXiv:2409.14170},
+  year={2024}
+}

@@ -6,29 +6,29 @@
 # `jekyll serve`. If you change this file, please restart the server process.
 
 # Site Settings
-title                    : "Yifan Duan"
-description              : "3D Vision for Robotics"
-repository               : "yjsx/yjsx.github.io"
+title                    : "Guoliang You"
+description              : "Multi-Sensor Fusion for Robotic"
+repository               : "guoliang-you/guoliang-you.github.io"
 google_scholar_stats_use_cdn : false
 
 # google analytics
 google_analytics_id      :  # get google_analytics_id from https://analytics.google.com/analytics/
 
 # SEO Related
-google_site_verification :  fQZQD0EwLaSOrp3EbALt2rjxHEY9pUvWuh1fS96xgNk # get google_site_verification from https://search.google.com/search-console/about
-bing_site_verification   : 56D1B3DBCF345410DA9431AFE01788E7 # get bing_site_verification from https://www.bing.com/webmasters/about
+google_site_verification :  NJh_fET53nC254dUqdJiAXV61u3msUM2WOE94lFARWY # get google_site_verification from https://search.google.com/search-console/about
+bing_site_verification   : F333ECB68D98358D646E6EBCB491B203 # get bing_site_verification from https://www.bing.com/webmasters/about
 baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.baidu.com/login/index?u=/site/index
 
 # Site Author
 author:
-  name             : "Yifan Duan"
+  name             : "Guoliang You"
   avatar           : "images/android-chrome-512x512.png"
   bio              : "University of Science and Technology of China"
   location         : "Hefei, Anhui, China"
   employer         : #"Hefei General Machinery Research Institute"
   pubmed           : 
-  googlescholar    : "https://scholar.google.com/citations?user=eky7QqwAAAAJ"
-  email            : "dyf0202@mail.ustc.edu.cn"
+  googlescholar    : "https://scholar.google.com/citations?user=N9ndx_gAAAAJ"
+  email            : "glyou@mail.ustc.edu.cn"
   # researchgate     : "https://www.researchgate.net/profile/Jian-Tang-53"
   uri              : 
   bitbucket        :
@@ -37,7 +37,7 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "yjsx"
+  github           : "ColorfulSS"
   google_plus      :
   keybase          :
   instagram        :
@@ -45,7 +45,7 @@ author:
   lastfm           :
   linkedin         : # e.g., "linkedin username"
   dblp             : # e.g., "https://dblp.org/pid/xx/xxxx.html"
-  orcid            : "https://orcid.org/0009-0004-0754-3953"
+  orcid            : "https://orcid.org/0000-0002-0964-7279"
   pinterest        :
   soundcloud       :
   stackoverflow    : # http://stackoverflow.com/users/123456/username

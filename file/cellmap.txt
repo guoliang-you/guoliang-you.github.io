@@ -1,0 +1,6 @@
+@article{duan2024cellmap,
+  title={CELLmap: Enhancing LiDAR SLAM through Elastic and Lightweight Spherical Map Representation},
+  author={Duan, Yifan and Zhang, Xinran and Li, Yao and You, Guoliang and Chu, Xiaomeng and Ji, Jianmin and Zhang, Yanyong},
+  journal={arXiv preprint arXiv:2409.19597},
+  year={2024}
+}

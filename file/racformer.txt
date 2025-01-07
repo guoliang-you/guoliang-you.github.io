@@ -1,0 +1,6 @@
+@article{chu2024racformer,
+  title={RaCFormer: Towards High-Quality 3D Object Detection via Query-based Radar-Camera Fusion},
+  author={Chu, Xiaomeng and Deng, Jiajun and You, Guoliang and Duan, Yifan and Li, Houqiang and Zhang, Yanyong},
+  journal={arXiv preprint arXiv:2412.12725},
+  year={2024}
+}

@@ -1,0 +1,6 @@
+@article{duan2024rotation,
+  title={Rotation Initialization and Stepwise Refinement for Universal LiDAR Calibration},
+  author={Duan, Yifan and Zhang, Xinran and You, Guoliang and Wu, Yilong and Li, Xingchen and Li, Yao and Chu, Xiaomeng and Peng, Jie and Zhang, Yu and Ji, Jianmin and others},
+  journal={arXiv preprint arXiv:2405.05589},
+  year={2024}
+}

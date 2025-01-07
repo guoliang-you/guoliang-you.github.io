@@ -19,47 +19,61 @@ redirect_from:
 
 # About Me
 
+I am currently pursuing a PhD at the School of Computer Science and Technology, University of Science and Technology of China ([USTC](https://en.ustc.edu.cn/)), under the supervision of Prof. [Yanyong Zhang](http://staff.ustc.edu.cn/~yanyongz/), IEEE Fellow. I received my B.E. degree from Anhui University of Science and Technology (AUST).
 
-I am currently pursuing a PhD at the School of Computer Science and Technology, University of Science and Technology of China ([USTC](https://en.ustc.edu.cn/)) under the supervision of Prof. [Yanyong Zhang](http://staff.ustc.edu.cn/~yanyongz/). Prior to that, I received my B.E. degree in 2020 also from School of Computer Science and Technology at USTC.
+My research interests broadly encompass End-to-End autonomous driving, multi-sensor fusion perception, reinforcement learning, and Embodied AI.
+Recently, my work has focused on developing learning-based end-to-end driving systems, leveraging prompt-based techniques to accelerate model transfer across tasks. I have also been working on designing lane-level perception and planning solutions using purely vision-based approaches through Transformer architectures, which significantly enhance system efficiency. Additionally, I explore sparse multi-sensor fusion, particularly integrating LiDAR and camera data, to improve both perception accuracy and planning efficiency, thus optimizing the overall performance of autonomous systems. Furthermore, we are also exploring Embodied AI driven by large-scale foundation models, aiming to advance intelligent autonomous systems.
+<!-- My research interests broadly encompass End-to-End autonomous driving, multi-sensor fusion perception, reinforcement learning, and Embodied AI.  -->
 
  <!-- <a href='https://scholar.google.com/citations?user=WMkMTb4AAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=引用"></a>。 -->
 
-My research interest includes:
-- LiDAR-based SLAM
-- Calibration
-- 3D GS and NeRF
-- Occupancy Prediction
+<!-- Summary:
+- End-to-End Autonomous Driving
+- Multi-sensor Fusion Perception
+- Reinforcement Learning
+- Embodied AI -->
 
+<span class='anchor' id='-Recent news'></span>
 
-<span class='anchor' id='-news'></span>
-
-# News
+# Recent News
++ 2024.12.07: Our paper <a href="#-racformer">**RaCFormer**</a> has been posted on ArXiv (arXiv:2412.12725)！ 
 + 2024.12.02: Our paper <a href="#-php">**PHP**</a> is accepted by RA-L！
++ 2024.09.29: Our paper <a href="#-cellmap">**CELLmap**</a> has been posted on ArXiv (arXiv:2409.19597)！
++ 2024.09.21: Our paper <a href="#-lfp">**LFP**</a> has been posted on ArXiv (arXiv:2409.14170)！
 + 2024.08.14: Our paper <a href="#-edgecalib">**EdgeCalib**</a> is accepted by RA-L！
 + 2024.07.16: Our paper <a href="#-rayformer">**RayFormer**</a> is accepted by ACMMM 2024！
-+ 2024.06.30: Three papers <a href="#-CRPlace">**CRPlace**</a>, <a href="#-MM-Gaussian">**MM-Gaussian**</a> and <a href="#-LDP">**LDP**</a> are accepted by IROS 2024！
-+ 2024.03.25: Our paper <a href="#-farfusion">**FARFusion**</a> is accepted by RA-L！
-+ 2024.03.05: Our paper <a href="#-mmplace">**mmPlace**</a> is accepted by RA-L！
-+ 2024.01.29: Our paper <a href="#-occvo">**OCC-VO**</a> is accepted by ICRA 2024！
-+ 2023.12.02: Our paper <a href="#-Map">**Map++**</a> is accepted by MobiCom '24！
-+ 2023.10.02: Our paper <a href="#-scantrimmer">**ScanTrimmer**</a> is accepted by ROBIO 2023！
-+ 2023.07.18: Our dataset paper <a href="#-ustcfly">**USTC FLICAR**</a> is accepted by IJRR！
++ 2024.05.09: Our paper <a href="#-terra">**TERRA**</a> has been posted on ArXiv (arXiv:2405.05589)！
 + 2023.03.13: Our paper <a href="#-p3o">**$P^3O$**</a> is accepted by ICME 2023！
-+ 2022.06.30: My first paper <a href="#-pfilter">**PFilter**</a> is accepted by IROS 2022！
-+ 2022.06.30: Our paper <a href="#-fastbkrrt">**FastBKRRT**</a> is accepted by ICRA 2021！
 
 
- 
+
 <span class='anchor' id='-publications'></span>
 
 # Publications
+
+<span class='anchor' id='-racformer'></span>
+<div class='paper-box'><div class='paper-box-image'><div><div class="arxiv">arXiv</div><img src='images/paper/racformer.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+- RaCFormer: Towards High-Quality 3D Object Detection via Query-based Radar-Camera Fusion
+- Xiaomeng Chu, Jiajun Deng, `Guoliang You`, Yifan Duan, Houqiang Li, Yanyong Zhang
+- Under Review
+
+   <a href="https://arxiv.org/abs/2412.12725" style="display: inline-block; background-color: #ffffff; border-radius: 10px; padding: 3px 6px; text-decoration: none; color: black;border: 2px solid #222222;">
+    arxiv
+</a>
+<a href="/file/racformer.txt" style="display: inline-block; background-color: #ffffff; border-radius: 10px; padding: 3px 6px; text-decoration: none; color: black;border: 2px solid #222222;">
+    BibTeX
+</a>
+</div>
+</div>
 
 <span class='anchor' id='-php'></span>
 <div class='paper-box'><div class='paper-box-image'><div><div class="journal">RA-L</div><img src='images/paper/php.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 - Perception Helps Planning: Facilitating Multi-Stage Lane-Level Integration via Double-Edge Structures
-- Guoliang You, Xiaomeng Chu, `Yifan Duan`, Wenyu Zhang, Xingchen Li, Sha Zhang, Yao Li,Jianmin Ji, Yanyong Zhang
+- `Guoliang You`, Xiaomeng Chu, Yifan Duan, Wenyu Zhang, Xingchen Li, Sha Zhang, Yao Li,Jianmin Ji, Yanyong Zhang
 - IEEE Robotics and Automation Letters (RA-L)
 
    <a href="https://arxiv.org/abs/2407.11644" style="display: inline-block; background-color: #ffffff; border-radius: 10px; padding: 3px 6px; text-decoration: none; color: black;border: 2px solid #222222;">
@@ -71,13 +85,46 @@ My research interest includes:
 </div>
 </div>
 
+<span class='anchor' id='-cellmap'></span>
+<div class='paper-box'><div class='paper-box-image'><div><div class="arxiv">arXiv</div><img src='images/paper/cellmap.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+- CELLmap: Enhancing LiDAR SLAM through Elastic and Lightweight Spherical Map Representation
+- Yifan Duan, Xinran Zhang, Yao Li, `Guoliang You`, Xiaomeng Chu, Jianmin Ji, Yanyong Zhang
+- Under Review
+
+   <a href="https://arxiv.org/abs/2409.19597" style="display: inline-block; background-color: #ffffff; border-radius: 10px; padding: 3px 6px; text-decoration: none; color: black;border: 2px solid #222222;">
+    arxiv
+</a>
+<a href="/file/cellmap.txt" style="display: inline-block; background-color: #ffffff; border-radius: 10px; padding: 3px 6px; text-decoration: none; color: black;border: 2px solid #222222;">
+    BibTeX
+</a>
+</div>
+</div>
+
+<span class='anchor' id='-lfp'></span>
+<div class='paper-box'><div class='paper-box-image'><div><div class="arxiv">arXiv</div><img src='images/paper/lfp.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+- LFP: Efficient and Accurate End-to-End Lane-Level Planning via Camera-LiDAR Fusion
+- `Guoliang You`, Xiaomeng Chu, Yifan Duan, Xingchen Li, Sha Zhang, Jianmin Ji, Yanyong Zhang
+- Under Review
+
+   <a href="https://arxiv.org/abs/2409.14170" style="display: inline-block; background-color: #ffffff; border-radius: 10px; padding: 3px 6px; text-decoration: none; color: black;border: 2px solid #222222;">
+    arxiv
+</a>
+<a href="/file/lfp.txt" style="display: inline-block; background-color: #ffffff; border-radius: 10px; padding: 3px 6px; text-decoration: none; color: black;border: 2px solid #222222;">
+    BibTeX
+</a>
+</div>
+</div>
 
 <span class='anchor' id='-edgecalib'></span>
 <div class='paper-box'><div class='paper-box-image'><div><div class="journal">RA-L</div><img src='images/paper/edgecalib.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 - EdgeCalib: Multi-Frame Weighted Edge Features for Automatic Targetless LiDAR-Camera Calibration
-- Xingchen Li, `Yifan Duan`, Beibei Wang, Haojie Ren, Guoliang You, Yu Sheng, Jianmin Ji, Yanyong Zhang
+- Xingchen Li, Yifan Duan, Beibei Wang, Haojie Ren, `Guoliang You`, Yu Sheng, Jianmin Ji, Yanyong Zhang
 - IEEE Robotics and Automation Letters (RA-L)
 
    <a href="https://arxiv.org/abs/2310.16629" style="display: inline-block; background-color: #ffffff; border-radius: 10px; padding: 3px 6px; text-decoration: none; color: black;border: 2px solid #222222;">
@@ -95,7 +142,7 @@ My research interest includes:
 <div class='paper-box-text' markdown="1">
 
 - RayFormer: Improving Query-Based Multi-Camera 3D Object Detection via Ray-Centric Strategies
-- Xiaomeng Chu, Jiajun Deng, Guoliang You, `Yifan Duan`, Yao Li, Yanyong Zhang
+- Xiaomeng Chu, Jiajun Deng, `Guoliang You`, Yifan Duan, Yao Li, Yanyong Zhang
 - ACM MULTIMEDIA 2024 (ACMMM)
 
    <a href="https://arxiv.org/abs/2407.14923" style="display: inline-block; background-color: #ffffff; border-radius: 10px; padding: 3px 6px; text-decoration: none; color: black;border: 2px solid #222222;">
@@ -107,158 +154,18 @@ My research interest includes:
 </div>
 </div>
 
-
-<span class='anchor' id='-CRPlace'></span>
-<div class='paper-box'><div class='paper-box-image'><div><div class="conference">IROS 2024</div><img src='images/paper/CRPlace.png' alt="sym" width="100%"></div></div>
+<span class='anchor' id='-terra'></span>
+<div class='paper-box'><div class='paper-box-image'><div><div class="arxiv">arXiv</div><img src='images/paper/terra.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-- CRPlace: Camera-Radar Fusion with BEV Representation for Place Recognition
--	Shaowei Fu, `Yifan Duan`, Yao Li, Chengzhen Meng, Yingjie Wang, Jianmin Ji, Yanyong Zhang
-- 2024 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)
+- Rotation Initialization and Stepwise Refinement for Universal LiDAR Calibration
+- Yifan Duan, Xinran Zhang, `Guoliang You`, Yilong Wu, Xingchen Li, Yao Li, Xiaomeng Chu, Jie Peng, Yu Zhang, Jianmin Ji, Yanyong Zhang
+- Under Review
 
-   <a href="https://arxiv.org/abs/2403.15183" style="display: inline-block; background-color: #ffffff; border-radius: 10px; padding: 3px 6px; text-decoration: none; color: black;border: 2px solid #222222;">
+   <a href="https://arxiv.org/abs/2405.05589" style="display: inline-block; background-color: #ffffff; border-radius: 10px; padding: 3px 6px; text-decoration: none; color: black;border: 2px solid #222222;">
     arxiv
 </a>
-<a href="/file/CRPlace.txt" style="display: inline-block; background-color: #ffffff; border-radius: 10px; padding: 3px 6px; text-decoration: none; color: black;border: 2px solid #222222;">
-    BibTeX
-</a>
-</div>
-</div>
-
-<span class='anchor' id='-MM-Gaussian'></span>
-<div class='paper-box'><div class='paper-box-image'><div><div class="conference">IROS 2024</div><img src='images/paper/MM-Gaussian.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-- MM-Gaussian: 3D Gaussian-based Multi-modal Fusion for Localization and Reconstruction in Unbounded Scenes  
--	Chenyang Wu, `Yifan Duan`, Xinran Zhang, Yu Sheng, Jianmin Ji, Yanyong Zhang
-- 2024 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)
-
-   <a href="https://arxiv.org/abs/2404.04026" style="display: inline-block; background-color: #ffffff; border-radius: 10px; padding: 3px 6px; text-decoration: none; color: black;border: 2px solid #222222;">
-    arxiv
-</a>
-<a href="/file/MM-Gaussian.txt" style="display: inline-block; background-color: #ffffff; border-radius: 10px; padding: 3px 6px; text-decoration: none; color: black;border: 2px solid #222222;">
-    BibTeX
-</a>
-</div>
-</div>
-
-<span class='anchor' id='-LDP'></span>
-<div class='paper-box'><div class='paper-box-image'><div><div class="conference">IROS 2024</div><img src='images/paper/LDP.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-- LDP: A Local Diffusion Planner for Efficient Robot Navigation and Collision Avoidance  
-- Wenhao Yu, Jie Peng, huanyu yang, Junrui Zhang, `Yifan Duan`, Jianmin Ji, Yanyong Zhang
-- 2024 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)
-
-</div>
-</div>
-
-<span class='anchor' id='-farfusion'></span>
-<div class='paper-box'><div class='paper-box-image'><div><div class="journal">RA-L</div><img src='images/paper/farfusion.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-- FARFusion: A Practical Roadside Radar-Camera Fusion System for Far-Range Perception
--	Yao Li, Yingjie Wang, Chengzhen Meng, `Yifan Duan`, Jianmin Ji, Yu Zhang, Yanyong Zhang
-- IEEE Robotics and Automation Letters (RA-L)
-
-   <a href="https://ieeexplore.ieee.org/document/10496834" style="display: inline-block; background-color: #ffffff; border-radius: 10px; padding: 3px 6px; text-decoration: none; color: black;border: 2px solid #222222;">
-    link
-</a>
-<a href="/file/pfilter.txt" style="display: inline-block; background-color: #ffffff; border-radius: 10px; padding: 3px 6px; text-decoration: none; color: black;border: 2px solid #222222;">
-    BibTeX
-</a>
-</div>
-</div>
-
-<span class='anchor' id='-mmplace'></span>
-<div class='paper-box'><div class='paper-box-image'><div><div class="journal">RA-L</div><img src='images/paper/mmplace.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-- mmPlace: Robust Place Recognition With Intermediate Frequency Signal of Low-Cost Single-Chip Millimeter Wave Radar
-- Chengzhen Meng, `Yifan Duan`, Chenming He, Dequan Wang, Xiaoran Fan, Yanyong Zhang
-- IEEE Robotics and Automation Letters (RA-L)
- 
-   <a href="https://arxiv.org/abs/2403.04703" style="display: inline-block; background-color: #ffffff; border-radius: 10px; padding: 3px 6px; text-decoration: none; color: black;border: 2px solid #222222;">
-    arxiv
-</a>
-<a href="https://github.com/TC-MCZ/mmPlace" style="display: inline-block; background-color: #ffffff; border-radius: 10px; padding: 3px 6px; text-decoration: none; color: black;border: 2px solid #222222;">
-    code
-</a>
-<a href="/file/mmplace.txt" style="display: inline-block; background-color: #ffffff; border-radius: 10px; padding: 3px 6px; text-decoration: none; color: black;border: 2px solid #222222;">
-    BibTeX
-</a>
-</div>
-</div>
-
-<span class='anchor' id='-occvo'></span>
-<div class='paper-box'><div class='paper-box-image'><div><div class="conference">ICRA 2024</div><img src='images/paper/occvo.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-- OCC-VO: Dense Mapping via 3D Occupancy-Based Visual Odometry for Autonomous Driving
--	Heng Li, `Yifan Duan`, Xinran Zhang, Haiyi Liu, Jianmin Ji, Yanyong Zhang
-- 2024 IEEE International Conference on Robotics and Automation (ICRA)
- 
-   <a href="https://arxiv.org/abs/2309.11011" style="display: inline-block; background-color: #ffffff; border-radius: 10px; padding: 3px 6px; text-decoration: none; color: black;border: 2px solid #222222;">
-    arxiv
-</a>
-<a href="https://github.com/USTCLH/OCC-VO" style="display: inline-block; background-color: #ffffff; border-radius: 10px; padding: 3px 6px; text-decoration: none; color: black;border: 2px solid #222222;">
-    code
-</a>
-<a href="/file/occvo.txt" style="display: inline-block; background-color: #ffffff; border-radius: 10px; padding: 3px 6px; text-decoration: none; color: black;border: 2px solid #222222;">
-    BibTeX
-</a>
-</div>
-</div>
-
-<span class='anchor' id='-Map'></span>
-<div class='paper-box'><div class='paper-box-image'><div><div class="conference">MobiCom '24</div><img src='images/paper/map++.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-- Map++: Towards User-Participatory Visual SLAM Systems with Efficient Map Expansion and Sharing
-- Xinran Zhang, Hanqi Zhu, `Yifan Duan`, Wuyang Zhang, Longfei Shangguan, Yu Zhang, Jianmin Ji, Yanyong Zhang
-- ACM MobiCom '24: Proceedings of the 30th Annual International Conference on Mobile Computing and Networking
- 
-   <a href="https://dl.acm.org/doi/10.1145/3636534.3649386" style="display: inline-block; background-color: #ffffff; border-radius: 10px; padding: 3px 6px; text-decoration: none; color: black;border: 2px solid #222222;">
-    link
-</a>
-<a href="/file/map++.txt" style="display: inline-block; background-color: #ffffff; border-radius: 10px; padding: 3px 6px; text-decoration: none; color: black;border: 2px solid #222222;">
-    BibTeX
-</a>
-</div>
-</div>
-
-<span class='anchor' id='-scantrimmer'></span>
-<div class='paper-box'><div class='paper-box-image'><div><div class="conference">ROBIO 2022</div><img src='images/paper/scantrimmer.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-- ScanTrimmer: an Online Dynamic Objects Removal Framework in Laser Scan for Robust Localization
--	Jing Wang, `Yifan Duan`, Jianmin Ji
-- 2023 IEEE International Conference on Robotics and Biomimetics (ROBIO)
-
-   <a href=" https://ieeexplore.ieee.org/document/10354661" style="display: inline-block; background-color: #ffffff; border-radius: 10px; padding: 3px 6px; text-decoration: none; color: black;border: 2px solid #222222;">
-    link
-</a>
-<a href="/file/scantrimmer.txt" style="display: inline-block; background-color: #ffffff; border-radius: 10px; padding: 3px 6px; text-decoration: none; color: black;border: 2px solid #222222;">
-    BibTeX
-</a>
-</div>
-</div>
-
-<span class='anchor' id='-ustcfly'></span>
-<div class='paper-box'><div class='paper-box-image'><div><div class="journal">IJRR</div><img src='images/paper/ustcfly.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-- USTC FLICAR: A sensors fusion dataset of LiDAR-inertial-camera for heavy-duty autonomous aerial work robots
--	Ziming Wang, Yujiang Liu, `Yifan Duan`, Xingchen Li, Xinran Zhang, Jianmin Ji, Erbao Dong, Yanyong Zhang
-- The International Journal of Robotics Research (IJRR)
- 
-   <a href="https://arxiv.org/abs/2304.01986" style="display: inline-block; background-color: #ffffff; border-radius: 10px; padding: 3px 6px; text-decoration: none; color: black;border: 2px solid #222222;">
-    arxiv
-</a>
-<a href="https://ustc-flicar.github.io/" style="display: inline-block; background-color: #ffffff; border-radius: 10px; padding: 3px 6px; text-decoration: none; color: black;border: 2px solid #222222;">
-    Page
-</a>
-<a href="/file/ustcfly.txt" style="display: inline-block; background-color: #ffffff; border-radius: 10px; padding: 3px 6px; text-decoration: none; color: black;border: 2px solid #222222;">
+<a href="/file/terra.txt" style="display: inline-block; background-color: #ffffff; border-radius: 10px; padding: 3px 6px; text-decoration: none; color: black;border: 2px solid #222222;">
     BibTeX
 </a>
 </div>
@@ -269,7 +176,7 @@ My research interest includes:
 <div class='paper-box-text' markdown="1">
 
 - $P^3O$: Transferring Visual Representations for Reinforcement Learning via Prompting
--	Guoliang You, Xiaomeng Chu, `Yifan Duan`, Jie Peng, Jianmin Ji, Yu Zhang, Yanyong Zhang
+-	`Guoliang You`, Xiaomeng Chu, Yifan Duan, Jie Peng, Jianmin Ji, Yu Zhang, Yanyong Zhang
 - 2023 IEEE International Conference on Multimedia and Expo (ICME)
  
    <a href="https://arxiv.org/abs/2303.12371" style="display: inline-block; background-color: #ffffff; border-radius: 10px; padding: 3px 6px; text-decoration: none; color: black;border: 2px solid #222222;">
@@ -282,52 +189,20 @@ My research interest includes:
 </div>
 
 
-<span class='anchor' id='-pfilter'></span>
-<div class='paper-box'><div class='paper-box-image'><div><div class="conference">IROS 2022</div><img src='images/paper/pfilter.png' alt="sym" width="100%"></div></div>
+<span class='anchor' id='-rl_e2e'></span>
+<div class='paper-box'><div class='paper-box-image'><div><div class="arxiv">arXiv</div><img src='images/paper/rl_e2e_car.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-- PFilter: Building persistent maps through feature filtering for fast and accurate LiDAR-based slam
--	`Yifan Duan`, Jie Peng, Yu Zhang, Jianmin Ji, Yanyong Zhang
-- 2022 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)
- 
-   <a href="https://arxiv.org/abs/2208.14848" style="display: inline-block; background-color: #ffffff; border-radius: 10px; padding: 3px 6px; text-decoration: none; color: black;border: 2px solid #222222;">
-    arxiv
-</a>
-<a href="https://github.com/yjsx/PFilter" style="display: inline-block; background-color: #ffffff; border-radius: 10px; padding: 3px 6px; text-decoration: none; color: black;border: 2px solid #222222;">
-    code
-</a>
-<a href="https://www.youtube.com/watch?v=Kx5lWBIlFLA" style="display: inline-block; background-color: #ffffff; border-radius: 10px; padding: 3px 6px; text-decoration: none; color: black;border: 2px solid #222222;">
-    Video
-</a>
-<a href="/file/pfilter.txt" style="display: inline-block; background-color: #ffffff; border-radius: 10px; padding: 3px 6px; text-decoration: none; color: black;border: 2px solid #222222;">
-    BibTeX
+- Collision Avoidance for An Ackermann-Steering Vehicle via Map-Based Deep Reinforcement Learning
+- `Guoliang You`, Yujie Yang, Tingting Jiang, Xu Li, Xingchen Li, Jianmin Ji, Yanyong Zhang
+
+   <a href="images/paper/rl_e2e_car.pdf" style="display: inline-block; background-color: #ffffff; border-radius: 10px; padding: 3px 6px; text-decoration: none; color: black;border: 2px solid #222222;">
+    PDF
 </a>
 </div>
 </div>
 
-<span class='anchor' id='-fastbkrrt'></span>
-<div class='paper-box'><div class='paper-box-image'><div><div class="conference">ICRA 2021</div><img src='images/paper/fastbkrrt.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-- Towards an online RRT-based path planning algorithm for Ackermann-steering vehicles
--	Jie Peng, Yu’An Chen, `Yifan Duan`, Yu Zhang, Jianmin Ji, Yanyong Zhang
-- 2021 IEEE International Conference on Robotics and Automation (ICRA)
- 
-   <a href="https://ieeexplore.ieee.org/abstract/document/9561207" style="display: inline-block; background-color: #ffffff; border-radius: 10px; padding: 3px 6px; text-decoration: none; color: black;border: 2px solid #222222;">
-    link
-</a>
-<a href="https://github.com/PengJieb/fastbkrrt" style="display: inline-block; background-color: #ffffff; border-radius: 10px; padding: 3px 6px; text-decoration: none; color: black;border: 2px solid #222222;">
-    code
-</a>
-<a href="/file/fastbkrrt.txt" style="display: inline-block; background-color: #ffffff; border-radius: 10px; padding: 3px 6px; text-decoration: none; color: black;border: 2px solid #222222;">
-    BibTeX
-</a>
-</div>
-</div>
-
-
-
-
+<!--  # TODO About me/ News/ Pub/ 专利/ Projects 2030*2 加上一个先进技术研究院的大巴车以及仿真等/ Biography/ Internship/ Talk/ >
 
 
 
@@ -353,20 +228,11 @@ My research interest includes:
 - *2017.6 - 2021.1*, 制造装备数字化国家工程研究中心, 湖北武汉 -->
 
 
-<!-- <div style="display: flex;justify-content: center; align-items: center;height: 200px;">
-    <div style="flex: 1;">
-        <img style="width: 200px; height: 200px;" src="/images/ustcxhjpg/ustcblue.jpg" alt="USTC">
-    </div>
-    <div style="flex: 1; width: 300px; height: 200px;">
-        <script type="text/javascript" id="clustrmaps" src="//clustrmaps.com/map_v2.js?d=BCzXnllK7DALNmWsuEPPoh2DRAH282QR2m3XPzLQJkg&cl=ffffff&w=a"></script>
-    </div>
-</div> -->
-
 <div style="display: flex; justify-content: center; align-items: center; height: 200px; margin: 0; padding: 0;">
     <div style="flex: 0 1 200px; margin-right: 20px;"> <!-- Adjusted flex-grow to 0 and flex-basis to 200px -->
         <img style="width: 100%; height: auto;" src="/images/ustcxhjpg/ustcblue.jpg" alt="USTC">
     </div>
     <div style="flex: 0 1 300px;"> <!-- Adjusted flex-grow to 0 and flex-basis to 300px -->
-        <script type="text/javascript" id="clustrmaps" src="//clustrmaps.com/map_v2.js?d=BCzXnllK7DALNmWsuEPPoh2DRAH282QR2m3XPzLQJkg&cl=ffffff&w=a"></script>
+        <script type="text/javascript" id="clustrmaps" src="//clustrmaps.com/map_v2.js?d=TA46OeVuyoWMK-nOtiE2rWVsaZNgKHWgt_1Ye6i1wZs&cl=ffffff&w=a"></script>
     </div>
 </div>

@@ -1,2 +1,2 @@
 ## Homepage of Yifan Duan
-yjsx.github.io
+guoliang-you.github.io
