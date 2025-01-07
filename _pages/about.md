@@ -35,7 +35,7 @@ Recently, my work has focused on developing learning-based end-to-end driving sy
 - Reinforcement Learning
 - Embodied AI -->
 
-<span class='anchor' id='-Recent news'></span>
+<span class='anchor' id='-news'></span>
 
 # Recent News
 + 2024.12.07: Our paper <a href="#-racformer">**RaCFormer**</a> has been posted on ArXiv (arXiv:2412.12725)！ 
@@ -224,7 +224,8 @@ Recently, my work has focused on developing learning-based end-to-end driving sy
 - Artificial Intelligence Research Institute, Hefei Comprehensive National Science Center
 - Research Intern: Multimodal End-to-End AI Algorithms
 - Feb 2022 - Jan 2023  Hefei, China
-- I participated in a project focused on lifelong learning for autonomous driving. My primary responsibilities involved developing a next-generation end-to-end perception and planning system using deep learning technologies. This system integrates multi-sensor data, including LiDAR and cameras, and employs reinforcement learning and deep neural networks to optimize vehicle decision-making and planning. I worked on system design, model training, optimization, and deployment in an autonomous shuttle vehicle. Through the application of lifelong learning techniques, the system continuously improves its perception and planning strategies, enhancing the safety and efficiency of autonomous driving.
+- I contributed to a lifelong learning-based autonomous driving project, focusing on developing an end-to-end perception and planning system using deep learning. The system integrates multi-sensor data (LiDAR, cameras) and utilizes reinforcement learning and imitation learning to optimize vehicle decision-making and planning. My role included system design, model training, optimization, and deployment in an autonomous vehicle. The system continuously enhances its perception and planning, improving safety and efficiency.
+<!-- - I participated in a project focused on lifelong learning for autonomous driving. My primary responsibilities involved developing a next-generation end-to-end perception and planning system using deep learning technologies. This system integrates multi-sensor data, including LiDAR and cameras, and employs reinforcement learning and deep neural networks to optimize vehicle decision-making and planning. I worked on system design, model training, optimization, and deployment in an autonomous shuttle vehicle. Through the application of lifelong learning techniques, the system continuously improves its perception and planning strategies, enhancing the safety and efficiency of autonomous driving. -->
 </div>
 </div>
 
