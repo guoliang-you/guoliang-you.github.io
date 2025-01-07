@@ -1,2 +1,2 @@
-## Homepage of Yifan Duan
+## Homepage of Guoliang You
 guoliang-you.github.io
