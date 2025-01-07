@@ -3,17 +3,35 @@ main:
   - title: "About Me"
     url: "#-about-me"
 
-  - title: "News"
+  - title: "Recent News"
     url: "#-news"
 
   - title: "Publications"
     url: "#-publications"
 
-  # - title: "荣誉奖项"
-  #   url: "#-ryjx"
+  - title: "Projects"
+    url: "#-projects"
 
-  # - title: "学术会议"
-  #   url: "#-xshy"
+  - title: "Internships"
+    url: "#-internships"
 
-  # - title: "工作实习"
-  #   url: "#-gzsx"
+  - title: "Talks"
+    url: "#-talks"
+  
+  - title: "Awards"
+    url: "#-awards"
+
+  - title: "Services"
+    url: "#-services"
+  
+  - title: "Fun Toys"
+    url: "#-funtoy"
+# About Me
+# Recent News
+# Publications
+# Projects [2030*2 + iot sim and car + leader tunel pro]
+# Internships [rengongzhinengyanjiuyuan ]
+# Talks
+# AWARDS
+# Services (TA*3 + TUC + USTC gaofeng)
+# Funy Toy

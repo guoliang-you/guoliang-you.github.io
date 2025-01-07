@@ -19,10 +19,12 @@ redirect_from:
 
 # About Me
 
-I am currently pursuing a PhD at the School of Computer Science and Technology, University of Science and Technology of China ([USTC](https://en.ustc.edu.cn/)), under the supervision of Prof. [Yanyong Zhang](http://staff.ustc.edu.cn/~yanyongz/), IEEE Fellow. I received my B.E. degree from Anhui University of Science and Technology (AUST).
+I am currently pursuing a PhD at the School of Computer Science and Technology, University of Science and Technology of China ([USTC](https://en.ustc.edu.cn/)), under the supervision of Prof. [Yanyong Zhang](http://staff.ustc.edu.cn/~yanyongz/), IEEE Fellow. I received my B.E. degree from Anhui University of Science and Technology ([AUST](https://www.aust.edu.cn/)).
 
 My research interests broadly encompass End-to-End autonomous driving, multi-sensor fusion perception, reinforcement learning, and Embodied AI.
 Recently, my work has focused on developing learning-based end-to-end driving systems, leveraging prompt-based techniques to accelerate model transfer across tasks. I have also been working on designing lane-level perception and planning solutions using purely vision-based approaches through Transformer architectures, which significantly enhance system efficiency. Additionally, I explore sparse multi-sensor fusion, particularly integrating LiDAR and camera data, to improve both perception accuracy and planning efficiency, thus optimizing the overall performance of autonomous systems. Furthermore, we are also exploring Embodied AI driven by large-scale foundation models, aiming to advance intelligent autonomous systems.
+
+<i class="fas fa-download  pr-1 fa-fw"></i> Download my <a href="file/CV_guoliang.pdf">**CV**</a>.
 <!-- My research interests broadly encompass End-to-End autonomous driving, multi-sensor fusion perception, reinforcement learning, and Embodied AI.  -->
 
  <!-- <a href='https://scholar.google.com/citations?user=WMkMTb4AAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=引用"></a>。 -->
@@ -202,30 +204,67 @@ Recently, my work has focused on developing learning-based end-to-end driving sy
 </div>
 </div>
 
-<!--  # TODO About me/ News/ Pub/ 专利/ Projects 2030*2 加上一个先进技术研究院的大巴车以及仿真等/ Biography/ Internship/ Talk/ >
+<span class='anchor' id='-projects'></span>
+
+# Projects
+- National Key Research and Development Program of China under Grants [No.2018AAA0100500](https://meta.ustc.edu.cn)
+- National Key Research and Development Program of China under Grants NO.2023YFB4704500
+- National Natural Science Foundation of China under Grants No.62332016
+- Guangdong Province Research and Development Program under Grants No.2020B0909050001
+- Hunan Province Major Scientific and Technological Program under Grants No.2024QK2001
+
+<span class='anchor' id='-internships'></span>
+
+# Internships
+<div class='paper-box'><div class='paper-box-image'><div><div class=""></div>
+<img src='images/internships/hefei_ai.png' alt="sym" width="100%">
+<img src='images/internships/hefei_ai_auto.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+- Artificial Intelligence Research Institute, Hefei Comprehensive National Science Center
+- Research Intern: Multimodal End-to-End AI Algorithms
+- Feb 2022 - Jan 2023  Hefei, China
+- I participated in a project focused on lifelong learning for autonomous driving. My primary responsibilities involved developing a next-generation end-to-end perception and planning system using deep learning technologies. This system integrates multi-sensor data, including LiDAR and cameras, and employs reinforcement learning and deep neural networks to optimize vehicle decision-making and planning. I worked on system design, model training, optimization, and deployment in an autonomous shuttle vehicle. Through the application of lifelong learning techniques, the system continuously improves its perception and planning strategies, enhancing the safety and efficiency of autonomous driving.
+</div>
+</div>
 
 
+<span class='anchor' id='-talks'></span>
 
-<!-- <span class='anchor' id='-ryjx'></span>
+# Talks
+<div class='paper-box'><div class='paper-box-image'><div><div class=""></div>
+<img src='images/talks/gosim.png' alt="sym" width="100%">
+</div></div>
+<div class='paper-box-text' markdown="1">
 
-# 🏅 荣誉奖项
-- *2015.11* 获得 第十四届“挑战杯”全国大学生课外学术科技作品竞赛 `一等奖`  
-- *2015.06* 获得 第十三届“挑战杯”四川大学生课外学术科技作品竞赛 `一等奖` [[新闻]](https://www.sc.gov.cn/10462/10778/10876/2015/7/1/10341562.shtml)  
-- *2014.12* 获得 第四届全国大学生工程训练综合能力竞赛（四川赛区） `一等奖`  
+- Global Open-Source Innovation Meetup
+- Demonstration and Validation of V2X Collaboration Systems in Carla Simulation
+- Sep 23, 2023, 3:00 PM Shanghai, China
+- I have been invited to present at GOSIM Workshop to introduce my PhD work on simulation modeling for V2X collaborative scenarios. This includes real-world data collection and the construction of simulation environments based on these data, specifically designed for large-scale V2X collaboration scenarios. These simulation environments are capable of providing data from dozens of LiDARs and cameras, while also supporting algorithm testing.
+</div>
+</div>
 
-<span class='anchor' id='-xshy'></span>
+<span class='anchor' id='-awards'></span>
 
-# 🏛️ 学术会议
-- *2021.10*, 全国电磁无损检测技术研讨会 暨 中国机械工程学会无损检测分会电磁专业技术大会第十一届第四次全体会议, 陕西西安, 受邀报告
-- *2019.09*, 第十九届国际应用电磁学与力学会议 (ISEM 2019), 江苏南京, 海报
-- *2017.10*, 第六届中国国际管道会议 (CIPC 2017), 河北廊坊
+# Awards
+- **Sep 2024**  Awarded the PhD Academic Scholarship (Second Class) from the University of Science and Technology of China (USTC) in 2024.
+- **Sep 2023**  Awarded the PhD Academic Scholarship (First Class) from the University of Science and Technology of China (USTC) in 2023.
+- **Sep 2022** Awarded the PhD Academic Scholarship (Second Class) from the University of Science and Technology of China (USTC) in 2022.
+- **Sep 2021** Awarded the PhD Academic Scholarship (Second Class) from the University of Science and Technology of China (USTC) in 2021. 
 
-<span class='anchor' id='-gzsx'></span>
+<span class='anchor' id='-services'></span>
 
-# 💻 工作实习
-- *2018.05 - 2020.02*, 重庆长江轴承股份有限公司, 重庆
-- *2020.11.25 - 2020.12.02*, 湖北新冶钢有限公司, 湖北黄石
-- *2017.6 - 2021.1*, 制造装备数字化国家工程研究中心, 湖北武汉 -->
+# Services
+- **Mar 2022** Teaching Assistant, Computer Architecture Course - University of Science and Technology of China (USTC)
+- **Aug 2021** Volunteer, ACM China Turing Conference - Association for Computing Machinery (ACM)
+- **Mar 2021** Teaching Assistant, Computer Architecture Course - University of Science and Technology of China (USTC)
+- **Sep 2020** Teaching Assistant, Deep Reinforcement Learning Course - University of Science and Technology of China (USTC)
+- **Jul 2020** Volunteer, USTC Information Intelligence Summit Forum - University of Science and Technology of China (USTC)
+- **Oct 2019** Volunteer, Google TF+ Open Source Technologies and High-Performance Computing Seminar - Google
+
+
+<!-- <span class='anchor' id='-funtoy'></span> -->
+
 
 
 <div style="display: flex; justify-content: center; align-items: center; height: 200px; margin: 0; padding: 0;">
