@@ -240,7 +240,7 @@ Recently, my work has focused on developing learning-based end-to-end driving sy
 
 - Global Open-Source Innovation Meetup
 - Demonstration and Validation of V2X Collaboration Systems in Carla Simulation
-- Sep 23, 2023, 3:00 PM Shanghai, China
+- Sept 23, 2023, 3:00 PM Shanghai, China
 - I have been invited to present at GOSIM Workshop to introduce my PhD work on simulation modeling for V2X collaborative scenarios. This includes real-world data collection and the construction of simulation environments based on these data, specifically designed for large-scale V2X collaboration scenarios. These simulation environments are capable of providing data from dozens of LiDARs and cameras, while also supporting algorithm testing.
 </div>
 </div>
@@ -248,10 +248,10 @@ Recently, my work has focused on developing learning-based end-to-end driving sy
 <span class='anchor' id='-awards'></span>
 
 # Awards
-- **Sep 2024**  Awarded the PhD Academic Scholarship (Second Class) from the University of Science and Technology of China (USTC) in 2024.
-- **Sep 2023**  Awarded the PhD Academic Scholarship (First Class) from the University of Science and Technology of China (USTC) in 2023.
-- **Sep 2022** Awarded the PhD Academic Scholarship (Second Class) from the University of Science and Technology of China (USTC) in 2022.
-- **Sep 2021** Awarded the PhD Academic Scholarship (Second Class) from the University of Science and Technology of China (USTC) in 2021. 
+- **Sept 2024**  Awarded the PhD Academic Scholarship (Second Class) from the University of Science and Technology of China (USTC) in 2024.
+- **Sept 2023**  Awarded the PhD Academic Scholarship (First Class) from the University of Science and Technology of China (USTC) in 2023.
+- **Sept 2022** Awarded the PhD Academic Scholarship (Second Class) from the University of Science and Technology of China (USTC) in 2022.
+- **Sept 2021** Awarded the PhD Academic Scholarship (Second Class) from the University of Science and Technology of China (USTC) in 2021. 
 
 <span class='anchor' id='-services'></span>
 
@@ -259,7 +259,7 @@ Recently, my work has focused on developing learning-based end-to-end driving sy
 - **Mar 2022** Teaching Assistant, Computer Architecture Course - University of Science and Technology of China (USTC)
 - **Aug 2021** Volunteer, ACM China Turing Conference - Association for Computing Machinery (ACM)
 - **Mar 2021** Teaching Assistant, Computer Architecture Course - University of Science and Technology of China (USTC)
-- **Sep 2020** Teaching Assistant, Deep Reinforcement Learning Course - University of Science and Technology of China (USTC)
+- **Sept 2020** Teaching Assistant, Deep Reinforcement Learning Course - University of Science and Technology of China (USTC)
 - **Jul 2020** Volunteer, USTC Information Intelligence Summit Forum - University of Science and Technology of China (USTC)
 - **Oct 2019** Volunteer, Google TF+ Open Source Technologies and High-Performance Computing Seminar - Google
 
