@@ -206,7 +206,7 @@ Recently, my work has focused on developing learning-based end-to-end driving sy
 
 <span class='anchor' id='-grants'></span>
 
-# Projects
+# Participated Grants
 - National Key Research and Development Program of China under Grants [No.2018AAA0100500](https://meta.ustc.edu.cn)
 - National Key Research and Development Program of China under Grants NO.2023YFB4704500
 - National Natural Science Foundation of China under Grants No.62332016
