@@ -24,7 +24,7 @@ I am currently pursuing a PhD at the School of Computer Science and Technology, 
 My research interests broadly encompass End-to-End autonomous driving, multi-sensor fusion perception, reinforcement learning, and Embodied AI.
 Recently, my work has focused on developing learning-based end-to-end driving systems, leveraging prompt-based techniques to accelerate model transfer across tasks. I have also been working on designing lane-level perception and planning solutions using purely vision-based approaches through Transformer architectures, which significantly enhance system efficiency. Additionally, I explore sparse multi-sensor fusion, particularly integrating LiDAR and camera data, to improve both perception accuracy and planning efficiency, thus optimizing the overall performance of autonomous systems. Furthermore, we are also exploring Embodied AI driven by large-scale foundation models, aiming to advance intelligent autonomous systems.
 
-<i class="fas fa-download  pr-1 fa-fw"></i> Download my <a href="file/CV_guoliang.pdf">**CV**</a>.
+<i class="fas fa-download  pr-1 fa-fw"></i> Download my <a href="file/CV_Guoliang.pdf">**CV**</a>.
 <!-- My research interests broadly encompass End-to-End autonomous driving, multi-sensor fusion perception, reinforcement learning, and Embodied AI.  -->
 
  <!-- <a href='https://scholar.google.com/citations?user=WMkMTb4AAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=引用"></a>。 -->
@@ -208,7 +208,7 @@ Recently, my work has focused on developing learning-based end-to-end driving sy
 
 # Participated Grants
 - National Key Research and Development Program of China under Grants [No.2018AAA0100500](https://meta.ustc.edu.cn)
-- National Key Research and Development Program of China under Grants NO.2023YFB4704500
+- National Key Research and Development Program of China under Grants No.2023YFB4704500
 - National Natural Science Foundation of China under Grants No.62332016
 - Guangdong Province Research and Development Program under Grants No.2020B0909050001
 - Hunan Province Major Scientific and Technological Program under Grants No.2024QK2001
