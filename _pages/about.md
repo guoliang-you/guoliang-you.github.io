@@ -38,6 +38,7 @@ Recently, my work has focused on developing learning-based end-to-end driving sy
 <span class='anchor' id='-news'></span>
 
 # Recent News
++ 2025.01.28: Our paper <a href="#-cellmap">**CELLmap**</a> is accepted by ICRA！
 + 2024.12.07: Our paper <a href="#-racformer">**RaCFormer**</a> has been posted on ArXiv (arXiv:2412.12725)！ 
 + 2024.12.02: Our paper <a href="#-php">**PHP**</a> is accepted by RA-L！
 + 2024.09.29: Our paper <a href="#-cellmap">**CELLmap**</a> has been posted on ArXiv (arXiv:2409.19597)！
@@ -88,7 +89,7 @@ Recently, my work has focused on developing learning-based end-to-end driving sy
 </div>
 
 <span class='anchor' id='-cellmap'></span>
-<div class='paper-box'><div class='paper-box-image'><div><div class="arxiv">arXiv</div><img src='images/paper/cellmap.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="journal">arXiv</div><img src='images/paper/cellmap.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 - CELLmap: Enhancing LiDAR SLAM through Elastic and Lightweight Spherical Map Representation
