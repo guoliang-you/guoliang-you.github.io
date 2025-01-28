@@ -90,7 +90,7 @@ Recently, my work has focused on developing learning-based end-to-end driving sy
 </div>
 
 <span class='anchor' id='-cellmap'></span>
-<div class='paper-box'><div class='paper-box-image'><div><div class="journal">arXiv</div><img src='images/paper/cellmap.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="journal">ICRA</div><img src='images/paper/cellmap.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 - CELLmap: Enhancing LiDAR SLAM through Elastic and Lightweight Spherical Map Representation
