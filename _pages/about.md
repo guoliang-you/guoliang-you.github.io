@@ -57,7 +57,7 @@ Recently, my work has focused on developing learning-based end-to-end driving sy
 # Publications
 
 <span class='anchor' id='-racformer'></span>
-<div class='paper-box'><div class='paper-box-image'><div><div class="conference">arXiv</div><img src='images/paper/racformer.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="conference">CVPR</div><img src='images/paper/racformer.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 - RaCFormer: Towards High-Quality 3D Object Detection via Query-based Radar-Camera Fusion
