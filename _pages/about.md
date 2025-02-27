@@ -38,6 +38,7 @@ Recently, my work has focused on developing learning-based end-to-end driving sy
 <span class='anchor' id='-news'></span>
 
 # Recent News
++ 2025.02.27: Our paper <a href="#-racformer">**RaCFormer**</a> is accepted by CVPR!
 + 2025.01.28: Our paper <a href="#-cellmap">**CELLmap**</a> is accepted by ICRA!
 + 2025.01.28: Our paper <a href="#-edgecalib">**EdgeCalib**</a> is accepted by ICRA!
 + 2024.12.07: Our paper <a href="#-racformer">**RaCFormer**</a> has been posted on ArXiv (arXiv:2412.12725)!
@@ -56,7 +57,7 @@ Recently, my work has focused on developing learning-based end-to-end driving sy
 # Publications
 
 <span class='anchor' id='-racformer'></span>
-<div class='paper-box'><div class='paper-box-image'><div><div class="arxiv">arXiv</div><img src='images/paper/racformer.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="conference">arXiv</div><img src='images/paper/racformer.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 - RaCFormer: Towards High-Quality 3D Object Detection via Query-based Radar-Camera Fusion
