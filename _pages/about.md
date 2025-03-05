@@ -62,7 +62,7 @@ Recently, my work has focused on developing learning-based end-to-end driving sy
 
 - RaCFormer: Towards High-Quality 3D Object Detection via Query-based Radar-Camera Fusion
 - Xiaomeng Chu, Jiajun Deng, `Guoliang You`, Yifan Duan, Houqiang Li, Yanyong Zhang
-- Under Review
+- IEEE / CVF Computer Vision and Pattern Recognition Conference (CVPR) 2025
 
    <a href="https://arxiv.org/abs/2412.12725" style="display: inline-block; background-color: #ffffff; border-radius: 10px; padding: 3px 6px; text-decoration: none; color: black;border: 2px solid #222222;">
     arxiv
@@ -79,7 +79,7 @@ Recently, my work has focused on developing learning-based end-to-end driving sy
 
 - Perception Helps Planning: Facilitating Multi-Stage Lane-Level Integration via Double-Edge Structures
 - `Guoliang You`, Xiaomeng Chu, Yifan Duan, Wenyu Zhang, Xingchen Li, Sha Zhang, Yao Li,Jianmin Ji, Yanyong Zhang
-- IEEE Robotics and Automation Letters (RA-L)
+- IEEE Robotics and Automation Letters (RA-L) 2024
 
    <a href="https://arxiv.org/abs/2407.11644" style="display: inline-block; background-color: #ffffff; border-radius: 10px; padding: 3px 6px; text-decoration: none; color: black;border: 2px solid #222222;">
     arxiv
@@ -96,7 +96,7 @@ Recently, my work has focused on developing learning-based end-to-end driving sy
 
 - CELLmap: Enhancing LiDAR SLAM through Elastic and Lightweight Spherical Map Representation
 - Yifan Duan, Xinran Zhang, Yao Li, `Guoliang You`, Xiaomeng Chu, Jianmin Ji, Yanyong Zhang
-- Under Review
+- IEEE International Conference on Robotics and Automation (ICRA)  2025
 
    <a href="https://arxiv.org/abs/2409.19597" style="display: inline-block; background-color: #ffffff; border-radius: 10px; padding: 3px 6px; text-decoration: none; color: black;border: 2px solid #222222;">
     arxiv
@@ -130,7 +130,7 @@ Recently, my work has focused on developing learning-based end-to-end driving sy
 
 - EdgeCalib: Multi-Frame Weighted Edge Features for Automatic Targetless LiDAR-Camera Calibration
 - Xingchen Li, Yifan Duan, Beibei Wang, Haojie Ren, `Guoliang You`, Yu Sheng, Jianmin Ji, Yanyong Zhang
-- IEEE Robotics and Automation Letters (RA-L)
+- IEEE Robotics and Automation Letters (RA-L) 2024
 
    <a href="https://arxiv.org/abs/2310.16629" style="display: inline-block; background-color: #ffffff; border-radius: 10px; padding: 3px 6px; text-decoration: none; color: black;border: 2px solid #222222;">
     arxiv
@@ -148,7 +148,7 @@ Recently, my work has focused on developing learning-based end-to-end driving sy
 
 - RayFormer: Improving Query-Based Multi-Camera 3D Object Detection via Ray-Centric Strategies
 - Xiaomeng Chu, Jiajun Deng, `Guoliang You`, Yifan Duan, Yao Li, Yanyong Zhang
-- ACM MULTIMEDIA 2024 (ACMMM)
+- ACM MULTIMEDIA (ACMMM) 2024
 
    <a href="https://arxiv.org/abs/2407.14923" style="display: inline-block; background-color: #ffffff; border-radius: 10px; padding: 3px 6px; text-decoration: none; color: black;border: 2px solid #222222;">
     arxiv
@@ -182,7 +182,7 @@ Recently, my work has focused on developing learning-based end-to-end driving sy
 
 - $P^3O$: Transferring Visual Representations for Reinforcement Learning via Prompting
 -	`Guoliang You`, Xiaomeng Chu, Yifan Duan, Jie Peng, Jianmin Ji, Yu Zhang, Yanyong Zhang
-- 2023 IEEE International Conference on Multimedia and Expo (ICME)
+- IEEE International Conference on Multimedia and Expo (ICME) 2023
  
    <a href="https://arxiv.org/abs/2303.12371" style="display: inline-block; background-color: #ffffff; border-radius: 10px; padding: 3px 6px; text-decoration: none; color: black;border: 2px solid #222222;">
     arxiv
