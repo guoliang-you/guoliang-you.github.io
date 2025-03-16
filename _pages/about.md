@@ -318,23 +318,23 @@ Recently, my work has focused on developing learning-based end-to-end driving sy
     <!-- 图片网格 -->
     <div class="ns-image-grid">
         <div class="ns-image-item" onclick="openModal('sonic_v1.jpg')">
-            <img src="sonic_v1.jpg" alt="Sonic V1">
+            <img src="images/sonic_v1.jpg" alt="Sonic V1">
             <p>First-generation autonomous vehicle platform, personally led by me.</p>
         </div>
         <div class="ns-image-item" onclick="openModal('sonic_v2.jpg')">
-            <img src="sonic_v2.jpg" alt="Sonic V2">
+            <img src="images/sonic_v2.jpg" alt="Sonic V2">
             <p>Second-generation autonomous vehicle platform with upgraded sensors.</p>
         </div>
         <div class="ns-image-item" onclick="openModal('ad_vehicle.jpg')">
-            <img src="ad_vehicle.jpg" alt="AD Vehicle">
+            <img src="images/ad_vehicle.jpg" alt="AD Vehicle">
             <p>Autonomous platform for special Tunnel scenarios.</p>
         </div>
         <div class="ns-image-item" onclick="openModal('arm_single.png')">
-            <img src="arm_single.png" alt="Arm Kinova">
+            <img src="images/arm_single.png" alt="Arm Kinova">
             <p>Single-arm robotic platform (Kinova - Purchased).</p>
         </div>
         <div class="ns-image-item" onclick="openModal('arm_dual.jpg')">
-            <img src="arm_dual.jpg" alt="Arm Galaxea ">
+            <img src="images/arm_dual.jpg" alt="Arm Galaxea ">
             <p>Dual-arm robotic platform (Galaxea - Purchased).</p>
         </div>
         <!-- 可以继续添加更多图片 -->
