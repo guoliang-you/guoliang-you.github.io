@@ -24,6 +24,9 @@ main:
   - title: "Services"
     url: "#-services"
   
+  - title: "Fun Toys"
+    url: "#-funtoys"
+
   # - title: "Fun Toys"
   #   url: "#-funtoy"
 # About Me
