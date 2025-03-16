@@ -244,13 +244,7 @@ Recently, my work has focused on developing learning-based end-to-end driving sy
     .ns-image-item img {
         width: 100%;
         height: auto;
-        transition: transform 0.3s ease; /* 平滑过渡效果 */
         border-radius: 8px;
-    }
-
-    /* 电脑端悬浮放大效果 */
-    .ns-image-item:hover img {
-        transform: scale(1.0); /* 放大 1.1 倍 */
     }
 
     /* 描述文字样式 */
@@ -261,7 +255,7 @@ Recently, my work has focused on developing learning-based end-to-end driving sy
     }
 
     /* 模态框样式 */
-    .modal {
+    .ns-modal {
         display: none; /* 默认隐藏 */
         position: fixed;
         z-index: 1000;
@@ -274,14 +268,14 @@ Recently, my work has focused on developing learning-based end-to-end driving sy
         align-items: center;
     }
 
-    .modal img {
+    .ns-modal img {
         max-width: 90%;
         max-height: 90%;
         border-radius: 8px;
     }
 
     /* 关闭按钮样式 */
-    .close {
+    .ns-close {
         position: absolute;
         top: 20px;
         right: 20px;
@@ -314,27 +308,26 @@ Recently, my work has focused on developing learning-based end-to-end driving sy
 </style>
 
 <div class="ns-container">
-    <!-- <h1>图片展示</h1> -->
     <!-- 图片网格 -->
     <div class="ns-image-grid">
-        <div class="ns-image-item" onclick="openModal('sonic_v1.jpg')">
+        <div class="ns-image-item" onclick="openModal('images/sonic_v1.jpg')">
             <img src="images/sonic_v1.jpg" alt="Sonic V1">
             <p>First-generation autonomous vehicle platform, personally led by me.</p>
         </div>
-        <div class="ns-image-item" onclick="openModal('sonic_v2.jpg')">
+        <div class="ns-image-item" onclick="openModal('images/sonic_v2.jpg')">
             <img src="images/sonic_v2.jpg" alt="Sonic V2">
             <p>Second-generation autonomous vehicle platform with upgraded sensors.</p>
         </div>
-        <div class="ns-image-item" onclick="openModal('ad_vehicle.jpg')">
+        <div class="ns-image-item" onclick="openModal('images/ad_vehicle.jpg')">
             <img src="images/ad_vehicle.jpg" alt="AD Vehicle">
             <p>Autonomous platform for special Tunnel scenarios.</p>
         </div>
-        <div class="ns-image-item" onclick="openModal('arm_single.png')">
+        <div class="ns-image-item" onclick="openModal('images/arm_single.png')">
             <img src="images/arm_single.png" alt="Arm Kinova">
             <p>Single-arm robotic platform (Kinova - Purchased).</p>
         </div>
-        <div class="ns-image-item" onclick="openModal('arm_dual.jpg')">
-            <img src="images/arm_dual.jpg" alt="Arm Galaxea ">
+        <div class="ns-image-item" onclick="openModal('images/arm_dual.jpg')">
+            <img src="images/arm_dual.jpg" alt="Arm Galaxea">
             <p>Dual-arm robotic platform (Galaxea - Purchased).</p>
         </div>
         <!-- 可以继续添加更多图片 -->
@@ -342,27 +335,34 @@ Recently, my work has focused on developing learning-based end-to-end driving sy
 </div>
 
 <!-- 模态框 -->
-<div id="modal" class="modal">
-    <span class="close" onclick="closeModal()">&times;</span>
-    <img id="modal-img" src="" alt="Pic 1.0">
+<div id="ns-modal" class="ns-modal">
+    <span class="ns-close" onclick="closeModal()">&times;</span>
+    <img id="ns-modal-img" src="" alt="放大图片">
 </div>
 
 <script>
     // 打开模态框
     function openModal(src) {
-        const modal = document.getElementById('modal');
-        const modalImg = document.getElementById('modal-img');
+        const modal = document.getElementById('ns-modal');
+        const modalImg = document.getElementById('ns-modal-img');
         modal.style.display = 'flex'; // 显示模态框
         modalImg.src = src; // 设置图片源
     }
 
     // 关闭模态框
     function closeModal() {
-        const modal = document.getElementById('modal');
+        const modal = document.getElementById('ns-modal');
         modal.style.display = 'none'; // 隐藏模态框
     }
-</script>
 
+    // 点击模态框外部关闭模态框
+    window.onclick = function(event) {
+        const modal = document.getElementById('ns-modal');
+        if (event.target === modal) {
+            closeModal();
+        }
+    };
+</script>
 
 # Participated Grants
 - National Key Research and Development Program of China under Grants [No.2018AAA0100500](https://meta.ustc.edu.cn)
