@@ -268,12 +268,13 @@ Recently, my work has focused on developing learning-based end-to-end driving sy
         align-items: center;
     }
 
+    /* 模态框中的图片样式 */
     .ns-modal img {
-        max-width: 90%;
-        max-height: 90%;
+        max-width: 90%; /* 图片最大宽度为屏幕宽度的 90% */
+        max-height: 90vh; /* 图片最大高度为屏幕高度的 90% */
+        object-fit: contain; /* 保持图片比例，完整显示 */
         border-radius: 8px;
     }
-
     /* 关闭按钮样式 */
     .ns-close {
         position: absolute;
@@ -283,7 +284,6 @@ Recently, my work has focused on developing learning-based end-to-end driving sy
         font-size: 30px;
         cursor: pointer;
     }
-
     /* 响应式布局 */
     @media (max-width: 768px) {
         .ns-image-item {
