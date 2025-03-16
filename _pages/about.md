@@ -229,8 +229,8 @@ Recently, my work has focused on developing learning-based end-to-end driving sy
     }
 
     .ns-image-item {
-        flex: 1 1 calc(25% - 20px); /* 默认每行 4 张图片 */
-        max-width: calc(25% - 20px);
+        flex: 1 1 calc(33.33% - 20px); /* 默认每行 3 张图片 */
+        max-width: calc(33.33% - 20px);
         text-align: center;
         background-color: #fff;
         padding: 10px;
