@@ -388,6 +388,10 @@ Recently, my work has focused on developing learning-based end-to-end driving sy
             <img src="images/arm_dual.jpg" alt="Arm Galaxea">
             <p>Dual-arm robotic platform (Galaxea - Purchased).</p>
         </div>
+        <div class="ns-image-item" onclick="openModal('images/drone_with_arm.jpg')">
+            <img src="images/drone_with_arm.jpg" alt="Arm Drone">
+            <p>Involved in developing a drone-robotic arm grasping platform.</p>
+        </div>
         <!-- 可以继续添加更多图片 -->
     </div>
 </div>
