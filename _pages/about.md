@@ -209,6 +209,64 @@ Recently, my work has focused on developing learning-based end-to-end driving sy
 
 <span class='anchor' id='-grants'></span>
 
+# Participated Grants
+- National Key Research and Development Program of China under Grants [No.2018AAA0100500](https://meta.ustc.edu.cn)
+- National Key Research and Development Program of China under Grants No.2023YFB4704500
+- National Natural Science Foundation of China under Grants No.62332016
+- Guangdong Province Research and Development Program under Grants No.2020B0909050001
+- Hunan Province Major Scientific and Technological Program under Grants No.2024QK2001
+
+<span class='anchor' id='-internships'></span>
+
+# Internships
+<div class='paper-box'><div class='paper-box-image'><div><div class=""></div>
+<img src='images/internships/hefei_ai.png' alt="sym" width="100%">
+<img src='images/internships/hefei_ai_auto.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+- Artificial Intelligence Research Institute, Hefei Comprehensive National Science Center
+- Research Intern: Multimodal End-to-End AI Algorithms
+- Feb 2022 - Jan 2023  Hefei, China
+- I contributed to a lifelong learning-based autonomous driving project, focusing on developing an end-to-end perception and planning system using deep learning. The system integrates multi-sensor data (LiDAR, cameras) and utilizes reinforcement learning and imitation learning to optimize vehicle decision-making and planning. My role included system design, model training, optimization, and deployment in an autonomous vehicle. The system continuously enhances its perception and planning, improving safety and efficiency.
+<!-- - I participated in a project focused on lifelong learning for autonomous driving. My primary responsibilities involved developing a next-generation end-to-end perception and planning system using deep learning technologies. This system integrates multi-sensor data, including LiDAR and cameras, and employs reinforcement learning and deep neural networks to optimize vehicle decision-making and planning. I worked on system design, model training, optimization, and deployment in an autonomous shuttle vehicle. Through the application of lifelong learning techniques, the system continuously improves its perception and planning strategies, enhancing the safety and efficiency of autonomous driving. -->
+</div>
+</div>
+
+
+<span class='anchor' id='-talks'></span>
+
+# Talks
+<div class='paper-box'><div class='paper-box-image'><div><div class=""></div>
+<img src='images/talks/gosim.png' alt="sym" width="100%">
+</div></div>
+<div class='paper-box-text' markdown="1">
+
+- Global Open-Source Innovation Meetup
+- Demonstration and Validation of V2X Collaboration Systems in Carla Simulation
+- Sept 23, 2023, 3:00 PM Shanghai, China
+- I have been invited to present at GOSIM Workshop to introduce my PhD work on simulation modeling for V2X collaborative scenarios. This includes real-world data collection and the construction of simulation environments based on these data, specifically designed for large-scale V2X collaboration scenarios. These simulation environments are capable of providing data from dozens of LiDARs and cameras, while also supporting algorithm testing.
+</div>
+</div>
+
+<span class='anchor' id='-awards'></span>
+
+# Awards
+- **Sept 2024**  Awarded the PhD Academic Scholarship (Second Class) from the University of Science and Technology of China (USTC) in 2024.
+- **Sept 2023**  Awarded the PhD Academic Scholarship (First Class) from the University of Science and Technology of China (USTC) in 2023.
+- **Sept 2022** Awarded the PhD Academic Scholarship (Second Class) from the University of Science and Technology of China (USTC) in 2022.
+- **Sept 2021** Awarded the PhD Academic Scholarship (Second Class) from the University of Science and Technology of China (USTC) in 2021. 
+
+<span class='anchor' id='-services'></span>
+
+# Services
+- **Mar 2022** Teaching Assistant, Computer Architecture Course - University of Science and Technology of China (USTC)
+- **Aug 2021** Volunteer, ACM China Turing Conference - Association for Computing Machinery (ACM)
+- **Mar 2021** Teaching Assistant, Computer Architecture Course - University of Science and Technology of China (USTC)
+- **Sept 2020** Teaching Assistant, Deep Reinforcement Learning Course - University of Science and Technology of China (USTC)
+- **Jul 2020** Volunteer, USTC Information Intelligence Summit Forum - University of Science and Technology of China (USTC)
+- **Oct 2019** Volunteer, Google TF+ Open Source Technologies and High-Performance Computing Seminar - Google
+
+
 
 <span class='anchor' id='-funtoys'></span>
 
@@ -363,64 +421,6 @@ Recently, my work has focused on developing learning-based end-to-end driving sy
         }
     };
 </script>
-
-# Participated Grants
-- National Key Research and Development Program of China under Grants [No.2018AAA0100500](https://meta.ustc.edu.cn)
-- National Key Research and Development Program of China under Grants No.2023YFB4704500
-- National Natural Science Foundation of China under Grants No.62332016
-- Guangdong Province Research and Development Program under Grants No.2020B0909050001
-- Hunan Province Major Scientific and Technological Program under Grants No.2024QK2001
-
-<span class='anchor' id='-internships'></span>
-
-# Internships
-<div class='paper-box'><div class='paper-box-image'><div><div class=""></div>
-<img src='images/internships/hefei_ai.png' alt="sym" width="100%">
-<img src='images/internships/hefei_ai_auto.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-- Artificial Intelligence Research Institute, Hefei Comprehensive National Science Center
-- Research Intern: Multimodal End-to-End AI Algorithms
-- Feb 2022 - Jan 2023  Hefei, China
-- I contributed to a lifelong learning-based autonomous driving project, focusing on developing an end-to-end perception and planning system using deep learning. The system integrates multi-sensor data (LiDAR, cameras) and utilizes reinforcement learning and imitation learning to optimize vehicle decision-making and planning. My role included system design, model training, optimization, and deployment in an autonomous vehicle. The system continuously enhances its perception and planning, improving safety and efficiency.
-<!-- - I participated in a project focused on lifelong learning for autonomous driving. My primary responsibilities involved developing a next-generation end-to-end perception and planning system using deep learning technologies. This system integrates multi-sensor data, including LiDAR and cameras, and employs reinforcement learning and deep neural networks to optimize vehicle decision-making and planning. I worked on system design, model training, optimization, and deployment in an autonomous shuttle vehicle. Through the application of lifelong learning techniques, the system continuously improves its perception and planning strategies, enhancing the safety and efficiency of autonomous driving. -->
-</div>
-</div>
-
-
-<span class='anchor' id='-talks'></span>
-
-# Talks
-<div class='paper-box'><div class='paper-box-image'><div><div class=""></div>
-<img src='images/talks/gosim.png' alt="sym" width="100%">
-</div></div>
-<div class='paper-box-text' markdown="1">
-
-- Global Open-Source Innovation Meetup
-- Demonstration and Validation of V2X Collaboration Systems in Carla Simulation
-- Sept 23, 2023, 3:00 PM Shanghai, China
-- I have been invited to present at GOSIM Workshop to introduce my PhD work on simulation modeling for V2X collaborative scenarios. This includes real-world data collection and the construction of simulation environments based on these data, specifically designed for large-scale V2X collaboration scenarios. These simulation environments are capable of providing data from dozens of LiDARs and cameras, while also supporting algorithm testing.
-</div>
-</div>
-
-<span class='anchor' id='-awards'></span>
-
-# Awards
-- **Sept 2024**  Awarded the PhD Academic Scholarship (Second Class) from the University of Science and Technology of China (USTC) in 2024.
-- **Sept 2023**  Awarded the PhD Academic Scholarship (First Class) from the University of Science and Technology of China (USTC) in 2023.
-- **Sept 2022** Awarded the PhD Academic Scholarship (Second Class) from the University of Science and Technology of China (USTC) in 2022.
-- **Sept 2021** Awarded the PhD Academic Scholarship (Second Class) from the University of Science and Technology of China (USTC) in 2021. 
-
-<span class='anchor' id='-services'></span>
-
-# Services
-- **Mar 2022** Teaching Assistant, Computer Architecture Course - University of Science and Technology of China (USTC)
-- **Aug 2021** Volunteer, ACM China Turing Conference - Association for Computing Machinery (ACM)
-- **Mar 2021** Teaching Assistant, Computer Architecture Course - University of Science and Technology of China (USTC)
-- **Sept 2020** Teaching Assistant, Deep Reinforcement Learning Course - University of Science and Technology of China (USTC)
-- **Jul 2020** Volunteer, USTC Information Intelligence Summit Forum - University of Science and Technology of China (USTC)
-- **Oct 2019** Volunteer, Google TF+ Open Source Technologies and High-Performance Computing Seminar - Google
-
 
 <!-- <span class='anchor' id='-funtoy'></span> -->
 
