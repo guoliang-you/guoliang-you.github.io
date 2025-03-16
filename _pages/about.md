@@ -209,6 +209,161 @@ Recently, my work has focused on developing learning-based end-to-end driving sy
 
 <span class='anchor' id='-grants'></span>
 
+
+<span class='anchor' id='-funtoys'></span>
+
+# Fun Toys
+<style>
+    /* 命名空间前缀 */
+    .ns-container {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 20px;
+    }
+
+    .ns-image-grid {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        justify-content: center;
+    }
+
+    .ns-image-item {
+        flex: 1 1 calc(25% - 20px); /* 默认每行 4 张图片 */
+        max-width: calc(25% - 20px);
+        text-align: center;
+        background-color: #fff;
+        padding: 10px;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        overflow: hidden; /* 隐藏超出部分 */
+        position: relative;
+        cursor: pointer; /* 鼠标指针样式 */
+    }
+
+    .ns-image-item img {
+        width: 100%;
+        height: auto;
+        transition: transform 0.3s ease; /* 平滑过渡效果 */
+        border-radius: 8px;
+    }
+
+    /* 电脑端悬浮放大效果 */
+    .ns-image-item:hover img {
+        transform: scale(1.0); /* 放大 1.1 倍 */
+    }
+
+    /* 描述文字样式 */
+    .ns-image-item p {
+        margin-top: 10px;
+        font-size: 14px;
+        color: #333;
+    }
+
+    /* 模态框样式 */
+    .modal {
+        display: none; /* 默认隐藏 */
+        position: fixed;
+        z-index: 1000;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.9); /* 半透明背景 */
+        justify-content: center;
+        align-items: center;
+    }
+
+    .modal img {
+        max-width: 90%;
+        max-height: 90%;
+        border-radius: 8px;
+    }
+
+    /* 关闭按钮样式 */
+    .close {
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        color: #fff;
+        font-size: 30px;
+        cursor: pointer;
+    }
+
+    /* 响应式布局 */
+    @media (max-width: 768px) {
+        .ns-image-item {
+            flex: 1 1 calc(33.33% - 20px); /* 中等屏幕每行 3 张 */
+            max-width: calc(33.33% - 20px);
+        }
+    }
+
+    @media (max-width: 480px) {
+        .ns-image-item {
+            flex: 1 1 calc(50% - 20px); /* 小屏幕每行 2 张 */
+            max-width: calc(50% - 20px);
+        }
+    }
+
+    @media (max-width: 320px) {
+        .ns-image-item {
+            flex: 1 1 100%; /* 超小屏幕每行 1 张 */
+            max-width: 100%;
+        }
+    }
+</style>
+
+<div class="ns-container">
+    <!-- <h1>图片展示</h1> -->
+    <!-- 图片网格 -->
+    <div class="ns-image-grid">
+        <div class="ns-image-item" onclick="openModal('sonic_v1.jpg')">
+            <img src="sonic_v1.jpg" alt="Sonic V1">
+            <p>First-generation autonomous vehicle platform, personally led by me.</p>
+        </div>
+        <div class="ns-image-item" onclick="openModal('sonic_v2.jpg')">
+            <img src="sonic_v2.jpg" alt="Sonic V2">
+            <p>Second-generation autonomous vehicle platform with upgraded sensors.</p>
+        </div>
+        <div class="ns-image-item" onclick="openModal('ad_vehicle.jpg')">
+            <img src="ad_vehicle.jpg" alt="AD Vehicle">
+            <p>Autonomous platform for special Tunnel scenarios.</p>
+        </div>
+        <div class="ns-image-item" onclick="openModal('arm_single.png')">
+            <img src="arm_single.png" alt="Arm Kinova">
+            <p>Single-arm robotic platform (Kinova - Purchased).</p>
+        </div>
+        <div class="ns-image-item" onclick="openModal('arm_dual.jpg')">
+            <img src="arm_dual.jpg" alt="Arm Galaxea ">
+            <p>Dual-arm robotic platform (Galaxea - Purchased).</p>
+        </div>
+        <!-- 可以继续添加更多图片 -->
+    </div>
+</div>
+
+<!-- 模态框 -->
+<div id="modal" class="modal">
+    <span class="close" onclick="closeModal()">&times;</span>
+    <img id="modal-img" src="" alt="Pic 1.0">
+</div>
+
+<script>
+    // 打开模态框
+    function openModal(src) {
+        const modal = document.getElementById('modal');
+        const modalImg = document.getElementById('modal-img');
+        modal.style.display = 'flex'; // 显示模态框
+        modalImg.src = src; // 设置图片源
+    }
+
+    // 关闭模态框
+    function closeModal() {
+        const modal = document.getElementById('modal');
+        modal.style.display = 'none'; // 隐藏模态框
+    }
+</script>
+
+
 # Participated Grants
 - National Key Research and Development Program of China under Grants [No.2018AAA0100500](https://meta.ustc.edu.cn)
 - National Key Research and Development Program of China under Grants No.2023YFB4704500
