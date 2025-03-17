@@ -318,7 +318,7 @@ Recently, my work has focused on developing learning-based end-to-end driving sy
         position: fixed;
         z-index: 1000;
         left: 0;
-        top: 0;
+        top: 60px;
         width: 100%;
         height: 100%;
         background-color: rgba(0, 0, 0, 0.9); /* 半透明背景 */
@@ -407,6 +407,10 @@ Recently, my work has focused on developing learning-based end-to-end driving sy
     function openModal(src) {
         const modal = document.getElementById('ns-modal');
         const modalImg = document.getElementById('ns-modal-img');
+        const navBar = document.querySelector('.masthead'); // 获取导航栏
+        const navBarHeight = navBar.offsetHeight; // 获取导航栏高度
+        modal.style.top = `${navBarHeight}px`; // 设置模态框的 top 值
+        modal.style.height = `calc(100% - ${navBarHeight}px)`; // 调整模态框高度
         modal.style.display = 'flex'; // 显示模态框
         modalImg.src = src; // 设置图片源
     }
