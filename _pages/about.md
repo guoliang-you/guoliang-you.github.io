@@ -336,7 +336,7 @@ Recently, my work has focused on developing learning-based end-to-end driving sy
     /* 关闭按钮样式 */
     .ns-close {
         position: absolute;
-        top: 20px;
+        top: 10px;
         right: 20px;
         color: #fff;
         font-size: 30px;
