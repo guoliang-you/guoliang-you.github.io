@@ -17,7 +17,7 @@ redirect_from:
 
 <span class='anchor' id='-about-me'></span>
 
-# About Me
+# ✨ About Me
 
 I am currently pursuing a PhD at the School of Computer Science and Technology, University of Science and Technology of China ([USTC](https://en.ustc.edu.cn/)), under the supervision of Prof. [Yanyong Zhang](http://staff.ustc.edu.cn/~yanyongz/), IEEE Fellow, and Assoc. Prof. [Jianmin Ji](http://staff.ustc.edu.cn/~jianmin/cv.html), in the Lab for Intelligent Networking and Knowledge Engineering ([LINKE](https://linke.ustc.edu.cn/)). I received my B.E. degree from Anhui University of Science and Technology ([AUST](https://www.aust.edu.cn/)).
 
