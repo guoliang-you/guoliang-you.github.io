@@ -37,7 +37,7 @@ Recently, my work has focused on developing learning-based end-to-end driving sy
 
 <span class='anchor' id='-news'></span>
 
-# Recent News
+# 🔥 Recent News
 + 2025.02.27: Our paper <a href="#-racformer">**RaCFormer**</a> is accepted by CVPR!
 + 2025.01.28: Our paper <a href="#-cellmap">**CELLmap**</a> is accepted by ICRA!
 + 2025.01.28: Our paper <a href="#-edgecalib">**EdgeCalib**</a> is accepted by ICRA!
@@ -54,7 +54,7 @@ Recently, my work has focused on developing learning-based end-to-end driving sy
 
 <span class='anchor' id='-publications'></span>
 
-# Publications
+# 📝 Publications
 
 <span class='anchor' id='-racformer'></span>
 <div class='paper-box'><div class='paper-box-image'><div><div class="conference">CVPR</div><img src='images/paper/racformer.png' alt="sym" width="100%"></div></div>
@@ -209,7 +209,7 @@ Recently, my work has focused on developing learning-based end-to-end driving sy
 
 <span class='anchor' id='-grants'></span>
 
-# Participated Grants
+# 🧑‍🎨 Participated Grants
 - National Key Research and Development Program of China under Grants [No.2018AAA0100500](https://meta.ustc.edu.cn)
 - National Key Research and Development Program of China under Grants No.2023YFB4704500
 - National Natural Science Foundation of China under Grants No.62332016
@@ -218,7 +218,7 @@ Recently, my work has focused on developing learning-based end-to-end driving sy
 
 <span class='anchor' id='-internships'></span>
 
-# Internships
+# 💻 Internships
 <div class='paper-box'><div class='paper-box-image'><div><div class=""></div>
 <img src='images/internships/hefei_ai.png' alt="sym" width="100%">
 <img src='images/internships/hefei_ai_auto.png' alt="sym" width="100%"></div></div>
@@ -235,7 +235,7 @@ Recently, my work has focused on developing learning-based end-to-end driving sy
 
 <span class='anchor' id='-talks'></span>
 
-# Talks
+# 💬 Talks
 <div class='paper-box'><div class='paper-box-image'><div><div class=""></div>
 <img src='images/talks/gosim.png' alt="sym" width="100%">
 </div></div>
@@ -250,7 +250,7 @@ Recently, my work has focused on developing learning-based end-to-end driving sy
 
 <span class='anchor' id='-awards'></span>
 
-# Awards
+# 🏆 Awards
 - **Sept 2024**  Awarded the PhD Academic Scholarship (Second Class) from the University of Science and Technology of China (USTC) in 2024.
 - **Sept 2023**  Awarded the PhD Academic Scholarship (First Class) from the University of Science and Technology of China (USTC) in 2023.
 - **Sept 2022** Awarded the PhD Academic Scholarship (Second Class) from the University of Science and Technology of China (USTC) in 2022.
@@ -258,7 +258,7 @@ Recently, my work has focused on developing learning-based end-to-end driving sy
 
 <span class='anchor' id='-services'></span>
 
-# Services
+# 📚 Services
 - **Mar 2022** Teaching Assistant, Computer Architecture Course - University of Science and Technology of China (USTC)
 - **Aug 2021** Volunteer, ACM China Turing Conference - Association for Computing Machinery (ACM)
 - **Mar 2021** Teaching Assistant, Computer Architecture Course - University of Science and Technology of China (USTC)
@@ -270,7 +270,7 @@ Recently, my work has focused on developing learning-based end-to-end driving sy
 
 <span class='anchor' id='-funtoys'></span>
 
-# Fun Toys
+# ⛄ Fun Toys
 <style>
     /* 命名空间前缀 */
     .ns-container {
