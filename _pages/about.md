@@ -38,6 +38,7 @@ Recently, my work has focused on developing learning-based end-to-end driving sy
 <span class='anchor' id='-news'></span>
 
 # 🔥 Recent News
++ 2025.03.20: Our paper <a href="#-GraspCoT">**GraspCoT**</a> has been posted on ArXiv (arXiv:2503.16013)!
 + 2025.02.27: Our paper <a href="#-racformer">**RaCFormer**</a> is accepted by CVPR!
 + 2025.01.28: Our paper <a href="#-cellmap">**CELLmap**</a> is accepted by ICRA!
 + 2025.01.28: Our paper <a href="#-edgecalib">**EdgeCalib**</a> is accepted by ICRA!
@@ -55,6 +56,24 @@ Recently, my work has focused on developing learning-based end-to-end driving sy
 <span class='anchor' id='-publications'></span>
 
 # 📝 Publications
+
+<span class='anchor' id='-GraspCoT'></span>
+<div class='paper-box'><div class='paper-box-image'><div><div class="arxiv">arxiv</div><img src='images/paper/GraspCoT.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+- GraspCoT: Integrating Physical Property Reasoning for 6-DoF Grasping under Flexible Language Instruction
+- Xiaomeng Chu, Jiajun Deng, `Guoliang You`, Wei Liu, Xingchen Li, Jianmin Ji, Yanyong Zhang
+- Under Review
+
+   <a href="https://arxiv.org/abs/2503.16013" style="display: inline-block; background-color: #ffffff; border-radius: 10px; padding: 3px 6px; text-decoration: none; color: black;border: 2px solid #222222;">
+    arxiv
+</a>
+<a href="/file/GraspCoT.txt" style="display: inline-block; background-color: #ffffff; border-radius: 10px; padding: 3px 6px; text-decoration: none; color: black;border: 2px solid #222222;">
+    BibTeX
+</a>
+</div>
+</div>
+
 
 <span class='anchor' id='-racformer'></span>
 <div class='paper-box'><div class='paper-box-image'><div><div class="conference">CVPR</div><img src='images/paper/racformer.png' alt="sym" width="100%"></div></div>

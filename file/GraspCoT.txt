@@ -1,0 +1,6 @@
+@article{chu2025graspcot,
+  title={GraspCoT: Integrating Physical Property Reasoning for 6-DoF Grasping under Flexible Language Instructions},
+  author={Chu, Xiaomeng and Deng, Jiajun and You, Guoliang and Liu, Wei and Li, Xingchen and Ji, Jianmin and Zhang, Yanyong},
+  journal={arXiv preprint arXiv:2503.16013},
+  year={2025}
+}
