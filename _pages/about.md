@@ -63,8 +63,9 @@ Furthermore, I am exploring the application of Vision-Language Models (VLMs) in 
 <div class='paper-box-text' markdown="1">
 
 - GraspCoT: Integrating Physical Property Reasoning for 6-DoF Grasping under Flexible Language Instruction
-- Xiaomeng Chu, Jiajun Deng, `Guoliang You`, Wei Liu, Xingchen Li, Jianmin Ji, Yanyong Zhang
+- Xiaomeng Chu, Jiajun Deng \*, `Guoliang You`, Wei Liu, Xingchen Li, Jianmin Ji, Yanyong Zhang\*
 - Under Review
+- \* Corresponding author.
 
    <a href="https://arxiv.org/abs/2503.16013" style="display: inline-block; background-color: #ffffff; border-radius: 10px; padding: 3px 6px; text-decoration: none; color: black;border: 2px solid #222222;">
     arxiv
@@ -81,8 +82,9 @@ Furthermore, I am exploring the application of Vision-Language Models (VLMs) in 
 <div class='paper-box-text' markdown="1">
 
 - RaCFormer: Towards High-Quality 3D Object Detection via Query-based Radar-Camera Fusion
-- Xiaomeng Chu, Jiajun Deng, `Guoliang You`, Yifan Duan, Houqiang Li, Yanyong Zhang
+- Xiaomeng Chu, Jiajun Deng \*, `Guoliang You`, Yifan Duan, Houqiang Li, Yanyong Zhang \*
 - IEEE / CVF Computer Vision and Pattern Recognition Conference (CVPR) 2025
+- \* Corresponding author.
 
    <a href="https://arxiv.org/abs/2412.12725" style="display: inline-block; background-color: #ffffff; border-radius: 10px; padding: 3px 6px; text-decoration: none; color: black;border: 2px solid #222222;">
     arxiv
@@ -98,8 +100,9 @@ Furthermore, I am exploring the application of Vision-Language Models (VLMs) in 
 <div class='paper-box-text' markdown="1">
 
 - Perception Helps Planning: Facilitating Multi-Stage Lane-Level Integration via Double-Edge Structures
-- `Guoliang You`, Xiaomeng Chu, Yifan Duan, Wenyu Zhang, Xingchen Li, Sha Zhang, Yao Li,Jianmin Ji, Yanyong Zhang
+- `Guoliang You`, Xiaomeng Chu, Yifan Duan, Wenyu Zhang, Xingchen Li, Sha Zhang, Yao Li,Jianmin Ji \*, Yanyong Zhang \*
 - IEEE Robotics and Automation Letters (RA-L) 2024
+- \* Corresponding author.
 
    <a href="https://arxiv.org/abs/2407.11644" style="display: inline-block; background-color: #ffffff; border-radius: 10px; padding: 3px 6px; text-decoration: none; color: black;border: 2px solid #222222;">
     arxiv
@@ -115,8 +118,9 @@ Furthermore, I am exploring the application of Vision-Language Models (VLMs) in 
 <div class='paper-box-text' markdown="1">
 
 - CELLmap: Enhancing LiDAR SLAM through Elastic and Lightweight Spherical Map Representation
-- Yifan Duan, Xinran Zhang, Yao Li, `Guoliang You`, Xiaomeng Chu, Jianmin Ji, Yanyong Zhang
+- Yifan Duan, Xinran Zhang, Yao Li, `Guoliang You`, Xiaomeng Chu, Jianmin Ji, Yanyong Zhang \*
 - IEEE International Conference on Robotics and Automation (ICRA)  2025
+- \* Corresponding author.
 
    <a href="https://arxiv.org/abs/2409.19597" style="display: inline-block; background-color: #ffffff; border-radius: 10px; padding: 3px 6px; text-decoration: none; color: black;border: 2px solid #222222;">
     arxiv
@@ -132,8 +136,9 @@ Furthermore, I am exploring the application of Vision-Language Models (VLMs) in 
 <div class='paper-box-text' markdown="1">
 
 - LFP: Efficient and Accurate End-to-End Lane-Level Planning via Camera-LiDAR Fusion
-- `Guoliang You`, Xiaomeng Chu, Yifan Duan, Xingchen Li, Sha Zhang, Jianmin Ji, Yanyong Zhang
+- `Guoliang You`, Xiaomeng Chu, Yifan Duan, Xingchen Li, Sha Zhang, Jianmin Ji \*, Yanyong Zhang \*
 - Under Review
+- \* Corresponding author.
 
    <a href="https://arxiv.org/abs/2409.14170" style="display: inline-block; background-color: #ffffff; border-radius: 10px; padding: 3px 6px; text-decoration: none; color: black;border: 2px solid #222222;">
     arxiv
@@ -149,8 +154,9 @@ Furthermore, I am exploring the application of Vision-Language Models (VLMs) in 
 <div class='paper-box-text' markdown="1">
 
 - EdgeCalib: Multi-Frame Weighted Edge Features for Automatic Targetless LiDAR-Camera Calibration
-- Xingchen Li, Yifan Duan, Beibei Wang, Haojie Ren, `Guoliang You`, Yu Sheng, Jianmin Ji, Yanyong Zhang
+- Xingchen Li, Yifan Duan, Beibei Wang, Haojie Ren, `Guoliang You`, Yu Sheng, Jianmin Ji, Yanyong Zhang \*
 - IEEE Robotics and Automation Letters (RA-L) 2024
+- \* Corresponding author.
 
    <a href="https://arxiv.org/abs/2310.16629" style="display: inline-block; background-color: #ffffff; border-radius: 10px; padding: 3px 6px; text-decoration: none; color: black;border: 2px solid #222222;">
     arxiv
@@ -167,8 +173,9 @@ Furthermore, I am exploring the application of Vision-Language Models (VLMs) in 
 <div class='paper-box-text' markdown="1">
 
 - RayFormer: Improving Query-Based Multi-Camera 3D Object Detection via Ray-Centric Strategies
-- Xiaomeng Chu, Jiajun Deng, `Guoliang You`, Yifan Duan, Yao Li, Yanyong Zhang
+- Xiaomeng Chu, Jiajun Deng \*, `Guoliang You`, Yifan Duan, Yao Li, Yanyong Zhang \*
 - ACM MULTIMEDIA (ACMMM) 2024
+- \* Corresponding author.
 
    <a href="https://arxiv.org/abs/2407.14923" style="display: inline-block; background-color: #ffffff; border-radius: 10px; padding: 3px 6px; text-decoration: none; color: black;border: 2px solid #222222;">
     arxiv
@@ -184,8 +191,9 @@ Furthermore, I am exploring the application of Vision-Language Models (VLMs) in 
 <div class='paper-box-text' markdown="1">
 
 - Rotation Initialization and Stepwise Refinement for Universal LiDAR Calibration
-- Yifan Duan, Xinran Zhang, `Guoliang You`, Yilong Wu, Xingchen Li, Yao Li, Xiaomeng Chu, Jie Peng, Yu Zhang, Jianmin Ji, Yanyong Zhang
+- Yifan Duan, Xinran Zhang, `Guoliang You`, Yilong Wu, Xingchen Li, Yao Li, Xiaomeng Chu, Jie Peng, Yu Zhang, Jianmin Ji, Yanyong Zhang \*
 - Under Review
+- \* Corresponding author.
 
    <a href="https://arxiv.org/abs/2405.05589" style="display: inline-block; background-color: #ffffff; border-radius: 10px; padding: 3px 6px; text-decoration: none; color: black;border: 2px solid #222222;">
     arxiv
@@ -201,8 +209,9 @@ Furthermore, I am exploring the application of Vision-Language Models (VLMs) in 
 <div class='paper-box-text' markdown="1">
 
 - $P^3O$: Transferring Visual Representations for Reinforcement Learning via Prompting
--	`Guoliang You`, Xiaomeng Chu, Yifan Duan, Jie Peng, Jianmin Ji, Yu Zhang, Yanyong Zhang
+-	`Guoliang You`, Xiaomeng Chu, Yifan Duan, Jie Peng, Jianmin Ji \*, Yu Zhang, Yanyong Zhang \*
 - IEEE International Conference on Multimedia and Expo (ICME) 2023
+- \* Corresponding author.
  
    <a href="https://arxiv.org/abs/2303.12371" style="display: inline-block; background-color: #ffffff; border-radius: 10px; padding: 3px 6px; text-decoration: none; color: black;border: 2px solid #222222;">
     arxiv
@@ -219,7 +228,8 @@ Furthermore, I am exploring the application of Vision-Language Models (VLMs) in 
 <div class='paper-box-text' markdown="1">
 
 - Collision Avoidance for An Ackermann-Steering Vehicle via Map-Based Deep Reinforcement Learning
-- `Guoliang You`, Yujie Yang, Tingting Jiang, Xu Li, Xingchen Li, Jianmin Ji, Yanyong Zhang
+- `Guoliang You`, Yujie Yang, Tingting Jiang, Xu Li, Xingchen Li, Jianmin Ji \*, Yanyong Zhang
+- \* Corresponding author.
 
    <a href="images/paper/rl_e2e_car.pdf" style="display: inline-block; background-color: #ffffff; border-radius: 10px; padding: 3px 6px; text-decoration: none; color: black;border: 2px solid #222222;">
     PDF
