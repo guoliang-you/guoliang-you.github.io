@@ -57,6 +57,7 @@ Furthermore, I am exploring the application of Vision-Language Models (VLMs) in 
 <span class='anchor' id='-publications'></span>
 
 # 📝 Publications
+\* Corresponding author.
 
 <span class='anchor' id='-GraspCoT'></span>
 <div class='paper-box'><div class='paper-box-image'><div><div class="arxiv">arxiv</div><img src='images/paper/GraspCoT.png' alt="sym" width="100%"></div></div>
