@@ -39,6 +39,7 @@ Furthermore, I am exploring the application of Vision-Language Models (VLMs) in 
 <span class='anchor' id='-news'></span>
 
 # 🔥 Recent News
++ 2025.06.26: Our paper <a href="#-GraspCoT">**GraspCoT**</a> is accepted by ICCV!
 + 2025.03.20: Our paper <a href="#-GraspCoT">**GraspCoT**</a> has been posted on ArXiv (arXiv:2503.16013)!
 + 2025.02.27: Our paper <a href="#-racformer">**RaCFormer**</a> is accepted by CVPR!
 + 2025.01.28: Our paper <a href="#-cellmap">**CELLmap**</a> is accepted by ICRA!
@@ -59,7 +60,7 @@ Furthermore, I am exploring the application of Vision-Language Models (VLMs) in 
 # 📝 Publications
 \* Corresponding author.
 <span class='anchor' id='-GraspCoT'></span>
-<div class='paper-box'><div class='paper-box-image'><div><div class="arxiv">arxiv</div><img src='images/paper/GraspCoT.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="conference">ICCV</div><img src='images/paper/GraspCoT.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 - GraspCoT: Integrating Physical Property Reasoning for 6-DoF Grasping under Flexible Language Instruction
