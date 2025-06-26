@@ -39,19 +39,19 @@ Furthermore, I am exploring the application of Vision-Language Models (VLMs) in 
 <span class='anchor' id='-news'></span>
 
 # 🔥 Recent News
-+ 2025.06.26: Our paper <a href="#-GraspCoT">**GraspCoT**</a> is accepted by ICCV!
++ 2025.06.26: Our paper <a href="#-GraspCoT">**GraspCoT**</a> is accepted by ICCV 🎉!
 + 2025.03.20: Our paper <a href="#-GraspCoT">**GraspCoT**</a> has been posted on ArXiv (arXiv:2503.16013)!
-+ 2025.02.27: Our paper <a href="#-racformer">**RaCFormer**</a> is accepted by CVPR!
-+ 2025.01.28: Our paper <a href="#-cellmap">**CELLmap**</a> is accepted by ICRA!
-+ 2025.01.28: Our paper <a href="#-edgecalib">**EdgeCalib**</a> is accepted by ICRA!
++ 2025.02.27: Our paper <a href="#-racformer">**RaCFormer**</a> is accepted by CVPR 🎉!
++ 2025.01.28: Our paper <a href="#-cellmap">**CELLmap**</a> is accepted by ICRA 🎉!
++ 2025.01.28: Our paper <a href="#-edgecalib">**EdgeCalib**</a> is accepted by ICRA 🎉!
 + 2024.12.07: Our paper <a href="#-racformer">**RaCFormer**</a> has been posted on ArXiv (arXiv:2412.12725)!
-+ 2024.12.02: Our paper <a href="#-php">**PHP**</a> is accepted by RA-L!
++ 2024.12.02: Our paper <a href="#-php">**PHP**</a> is accepted by RA-L 🎉!
 + 2024.09.29: Our paper <a href="#-cellmap">**CELLmap**</a> has been posted on ArXiv (arXiv:2409.19597)!
 + 2024.09.21: Our paper <a href="#-lfp">**LFP**</a> has been posted on ArXiv (arXiv:2409.14170)!
-+ 2024.08.14: Our paper <a href="#-edgecalib">**EdgeCalib**</a> is accepted by RA-L!
-+ 2024.07.16: Our paper <a href="#-rayformer">**RayFormer**</a> is accepted by ACMMM 2024!
++ 2024.08.14: Our paper <a href="#-edgecalib">**EdgeCalib**</a> is accepted by RA-L 🎉!
++ 2024.07.16: Our paper <a href="#-rayformer">**RayFormer**</a> is accepted by ACMMM 2024 🎉!
 + 2024.05.09: Our paper <a href="#-terra">**TERRA**</a> has been posted on ArXiv (arXiv:2405.05589)!
-+ 2023.03.13: Our paper <a href="#-p3o">**$P^3O$**</a> is accepted by ICME 2023!
++ 2023.03.13: Our paper <a href="#-p3o">**$P^3O$**</a> is accepted by ICME 2023 🎉!
 
 
 
