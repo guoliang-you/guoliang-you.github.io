@@ -113,6 +113,22 @@ Furthermore, I am exploring the application of Vision-Language Models (VLMs) in 
 </div>
 </div>
 
+<span class='anchor' id='-lfp'></span>
+<div class='paper-box'><div class='paper-box-image'><div><div class="arxiv">arXiv</div><img src='images/paper/lfp.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+- LFP: Efficient and Accurate End-to-End Lane-Level Planning via Camera-LiDAR Fusion
+- `Guoliang You`, Xiaomeng Chu, Yifan Duan, Xingchen Li, Sha Zhang, Jianmin Ji \*, Yanyong Zhang \*
+- Under Review
+
+   <a href="https://arxiv.org/abs/2409.14170" style="display: inline-block; background-color: #ffffff; border-radius: 10px; padding: 3px 6px; text-decoration: none; color: black;border: 2px solid #222222;">
+    arxiv
+</a>
+<a href="/file/lfp.txt" style="display: inline-block; background-color: #ffffff; border-radius: 10px; padding: 3px 6px; text-decoration: none; color: black;border: 2px solid #222222;">
+    BibTeX
+</a>
+</div>
+</div>
 
 <span class='anchor' id='-racformer'></span>
 <div class='paper-box'><div class='paper-box-image'><div><div class="conference">CVPR</div><img src='images/paper/racformer.png' alt="sym" width="100%"></div></div>
@@ -165,22 +181,6 @@ Furthermore, I am exploring the application of Vision-Language Models (VLMs) in 
 </div>
 </div>
 
-<span class='anchor' id='-lfp'></span>
-<div class='paper-box'><div class='paper-box-image'><div><div class="arxiv">arXiv</div><img src='images/paper/lfp.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-- LFP: Efficient and Accurate End-to-End Lane-Level Planning via Camera-LiDAR Fusion
-- `Guoliang You`, Xiaomeng Chu, Yifan Duan, Xingchen Li, Sha Zhang, Jianmin Ji \*, Yanyong Zhang \*
-- Under Review
-
-   <a href="https://arxiv.org/abs/2409.14170" style="display: inline-block; background-color: #ffffff; border-radius: 10px; padding: 3px 6px; text-decoration: none; color: black;border: 2px solid #222222;">
-    arxiv
-</a>
-<a href="/file/lfp.txt" style="display: inline-block; background-color: #ffffff; border-radius: 10px; padding: 3px 6px; text-decoration: none; color: black;border: 2px solid #222222;">
-    BibTeX
-</a>
-</div>
-</div>
 
 <span class='anchor' id='-edgecalib'></span>
 <div class='paper-box'><div class='paper-box-image'><div><div class="journal">RA-L</div><img src='images/paper/edgecalib.png' alt="sym" width="100%"></div></div>
