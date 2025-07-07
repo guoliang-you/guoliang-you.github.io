@@ -60,14 +60,14 @@ Furthermore, I am exploring the application of Vision-Language Models (VLMs) in 
 <span class='anchor' id='-publications'></span>
 
 # 📝 Publications
-\* Corresponding author.
+✉ is the corresponding author.
 
 <span class='anchor' id='-CalibWorkflow'></span>
 <div class='paper-box'><div class='paper-box-image'><div><div class="conference">ACMMM</div><img src='images/paper/CalibWorkflow.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 - CalibWorkflow: A General MLLM-Guided Workflow for Centimeter-Level Cross-Sensor Calibration
-- Xingchen Li, Wuyang Zhang \*, `Guoliang You`, Xiaomeng Chu, Wenhao Yu, Yifan Duan, Yuxuan Xiao, Yanyong Zhang\*
+- Xingchen Li, Wuyang Zhang ✉, `Guoliang You`, Xiaomeng Chu, Wenhao Yu, Yifan Duan, Yuxuan Xiao, Yanyong Zhang ✉
 - ACM MULTIMEDIA (ACMMM) 2025
 
    <a href="https://arxiv.org/abs/xxxx.xxxx" style="display: inline-block; background-color: #ffffff; border-radius: 10px; padding: 3px 6px; text-decoration: none; color: black;border: 2px solid #222222;">
