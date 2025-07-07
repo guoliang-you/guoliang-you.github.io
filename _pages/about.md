@@ -80,7 +80,7 @@ Furthermore, I am exploring the application of Vision-Language Models (VLMs) in 
 </div>
 
 <span class='anchor' id='-VLMPlanner'></span>
-<div class='paper-box'><div class='paper-box-image'><div><div class="conference">ICCV</div><img src='images/paper/VLMPlanner.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="conference">ACMMM</div><img src='images/paper/VLMPlanner.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 - VLMPlanner: Integrating Visual Language Models with Motion Planning
