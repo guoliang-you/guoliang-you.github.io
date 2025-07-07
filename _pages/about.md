@@ -39,11 +39,13 @@ Furthermore, I am exploring the application of Vision-Language Models (VLMs) in 
 <span class='anchor' id='-news'></span>
 
 # 🔥 Recent News
-+ 2025.06.26: Our paper <a href="#-GraspCoT">**GraspCoT**</a> is accepted by ICCV 🎉!
++ 2025.07.06: Our paper <a href="#-CalibWorkflow">**CalibWorkflow**</a> is accepted by ACMMM 2025 🎉!
++ 2025.06.06: Our paper <a href="#-VLMPlanner">**VLMPlanner**</a> is accepted by ACMMM 2025 🎉!
++ 2025.06.26: Our paper <a href="#-GraspCoT">**GraspCoT**</a> is accepted by ICCV 2025 🎉!
 + 2025.03.20: Our paper <a href="#-GraspCoT">**GraspCoT**</a> has been posted on ArXiv (arXiv:2503.16013)!
-+ 2025.02.27: Our paper <a href="#-racformer">**RaCFormer**</a> is accepted by CVPR 🎉!
-+ 2025.01.28: Our paper <a href="#-cellmap">**CELLmap**</a> is accepted by ICRA 🎉!
-+ 2025.01.28: Our paper <a href="#-edgecalib">**EdgeCalib**</a> is accepted by ICRA 🎉!
++ 2025.02.27: Our paper <a href="#-racformer">**RaCFormer**</a> is accepted by CVPR 2025🎉!
++ 2025.01.28: Our paper <a href="#-cellmap">**CELLmap**</a> is accepted by ICRA 2025🎉!
++ 2025.01.28: Our paper <a href="#-edgecalib">**EdgeCalib**</a> is accepted by ICRA 2025🎉!
 + 2024.12.07: Our paper <a href="#-racformer">**RaCFormer**</a> has been posted on ArXiv (arXiv:2412.12725)!
 + 2024.12.02: Our paper <a href="#-php">**PHP**</a> is accepted by RA-L 🎉!
 + 2024.09.29: Our paper <a href="#-cellmap">**CELLmap**</a> has been posted on ArXiv (arXiv:2409.19597)!
@@ -59,13 +61,48 @@ Furthermore, I am exploring the application of Vision-Language Models (VLMs) in 
 
 # 📝 Publications
 \* Corresponding author.
+
+<span class='anchor' id='-CalibWorkflow'></span>
+<div class='paper-box'><div class='paper-box-image'><div><div class="conference">ACMMM</div><img src='images/paper/CalibWorkflow.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+- CalibWorkflow: A General MLLM-Guided Workflow for Centimeter-Level Cross-Sensor Calibration
+- Xingchen Li, Wuyang Zhang \*, `Guoliang You`, Xiaomeng Chu, Wenhao Yu, Yifan Duan, Yuxuan Xiao, Yanyong Zhang\*
+- ACM MULTIMEDIA (ACMMM) 2025
+
+   <a href="https://arxiv.org/abs/xxxx.xxxx" style="display: inline-block; background-color: #ffffff; border-radius: 10px; padding: 3px 6px; text-decoration: none; color: black;border: 2px solid #222222;">
+    arxiv
+</a>
+<a href="/file/CalibWorkflow.txt" style="display: inline-block; background-color: #ffffff; border-radius: 10px; padding: 3px 6px; text-decoration: none; color: black;border: 2px solid #222222;">
+    BibTeX
+</a>
+</div>
+</div>
+
+<span class='anchor' id='-VLMPlanner'></span>
+<div class='paper-box'><div class='paper-box-image'><div><div class="conference">ICCV</div><img src='images/paper/VLMPlanner.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+- VLMPlanner: Integrating Visual Language Models with Motion Planning
+- Zhipeng Tang, Sha Zhang, Jiajun Deng \*, Chenjie Wang, `Guoliang You`, Yuting Huang, Xinrui Lin, Yanyong Zhang\*
+- ACM MULTIMEDIA (ACMMM) 2025
+
+   <a href="https://arxiv.org/abs/xxxx.xxxx" style="display: inline-block; background-color: #ffffff; border-radius: 10px; padding: 3px 6px; text-decoration: none; color: black;border: 2px solid #222222;">
+    arxiv
+</a>
+<a href="/file/VLMPlanner.txt" style="display: inline-block; background-color: #ffffff; border-radius: 10px; padding: 3px 6px; text-decoration: none; color: black;border: 2px solid #222222;">
+    BibTeX
+</a>
+</div>
+</div>
+
 <span class='anchor' id='-GraspCoT'></span>
 <div class='paper-box'><div class='paper-box-image'><div><div class="conference">ICCV</div><img src='images/paper/GraspCoT.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 - GraspCoT: Integrating Physical Property Reasoning for 6-DoF Grasping under Flexible Language Instruction
 - Xiaomeng Chu, Jiajun Deng \*, `Guoliang You`, Wei Liu, Xingchen Li, Jianmin Ji, Yanyong Zhang\*
-- Under Review
+- The International Conference on Computer Vision (ICCV) 2025
 
    <a href="https://arxiv.org/abs/2503.16013" style="display: inline-block; background-color: #ffffff; border-radius: 10px; padding: 3px 6px; text-decoration: none; color: black;border: 2px solid #222222;">
     arxiv
