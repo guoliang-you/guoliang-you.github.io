@@ -11,8 +11,9 @@
   <meta property="og:image" content="https://guoliang-you.github.io/images/android-chrome-512x512.png">
   <link rel="canonical" href="https://guoliang-you.github.io/">
   <link rel="icon" type="image/x-icon" href="images/favicon-globe.ico">
-  <link rel="stylesheet" href="assets/css/home.css?v=handdrawn1">
+  <link rel="stylesheet" href="assets/css/home.css?v=visits1">
   <script src="assets/js/figures.js?v=handdrawn1" defer></script>
+  <script src="assets/js/visits.js?v=visits1" defer></script>
   <title>Guoliang You | Research</title>
 </head>
 <body>
@@ -125,7 +126,15 @@
       </section>
     </main>
 
-    <footer><span>&copy; 2026 Guoliang You</span><a href="mailto:glyou@upenn.edu">glyou@upenn.edu</a><a href="#top">Back to top &uarr;</a></footer>
+    <footer id="footer">
+      <div class="footer-links"><span>&copy; 2026 Guoliang You</span><a href="mailto:glyou@upenn.edu">glyou@upenn.edu</a><a href="#top">Back to top &uarr;</a></div>
+      <p class="site-visits" id="site-visits" aria-live="polite" title="Page loads, including repeat visits. Statistics begin in October 2026.">
+        <svg class="visits-icon" viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M2 12s3.5-7 10-7 10 7 10 7-3.5 7-10 7S2 12 2 12Z"/><circle cx="12" cy="12" r="3"/></svg>
+        <span>Page views <span class="visits-count" id="visits-count">&mdash;</span></span>
+        <span class="visits-separator" aria-hidden="true">&middot;</span>
+        <span>Since Oct 2026</span>
+      </p>
+    </footer>
   </div>
   <dialog class="figure-viewer" id="figure-viewer" aria-labelledby="figure-title">
     <div class="figure-header">
