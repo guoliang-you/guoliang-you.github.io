@@ -3,65 +3,76 @@
 
   const section = document.getElementById('global-visitors');
   const map = document.getElementById('visitor-map');
+  const image = document.getElementById('visitor-map-image');
+  const summary = document.getElementById('visitor-map-summary');
+  const period = document.getElementById('visitor-map-period');
   const status = document.getElementById('visitor-map-status');
-  if (!section || !map || !status) return;
+  if (!section || !map || !image || !summary || !period || !status) return;
 
-  // Keep the original public widget ID; never create or reset a counter.
-  const widgetUrl = 'https://clustrmaps.com/map_v2.js?d=BCzXnllK7DALNmWsuEPPoh2DRAH282QR2m3XPzLQJkg&cl=ffffff&w=a';
+  // Public counter ID only. Its private management link stays outside Git.
+  const counterId = '6611225750';
+  const provider = 'https://www.stats4u.net';
 
-  // Previewing locally must not add visits to the historical record.
+  // A neutral, uncounted map lets local previews show the layout. Never use
+  // the provider's demo data or send local URLs to the public counter.
   if (location.hostname !== 'guoliang-you.github.io') {
     section.dataset.state = 'preview';
-    section.title = 'The visitor map loads on the published website.';
+    period.textContent = 'Local preview · not counted';
     return;
   }
 
+  section.dataset.state = 'loading';
+  map.hidden = true;
   let settled = false;
-  const observer = new MutationObserver(checkMap);
-  const timeout = setTimeout(unavailable, 8000);
+  const timeout = setTimeout(unavailable, 10000);
 
   function unavailable() {
     if (settled) return;
     settled = true;
     clearTimeout(timeout);
-    observer.disconnect();
     section.dataset.state = 'unavailable';
     map.hidden = true;
     status.textContent = 'Visitor map temporarily unavailable.';
     status.hidden = false;
   }
 
-  function ready() {
+  async function loadSummary() {
+    // This read-only endpoint also powers the provider's live map. It does
+    // not count visits; the image request is the single counting call.
+    const controller = new AbortController();
+    const deadline = setTimeout(() => controller.abort(), 6000);
+    try {
+      const response = await fetch(`${provider}/?action=globedata&s4uid=${counterId}&r=${Date.now()}`, {
+        credentials: 'omit',
+        referrerPolicy: 'origin',
+        signal: controller.signal
+      });
+      if (!response.ok) return;
+      const data = await response.json();
+      if (!Number.isSafeInteger(data.t) || data.t < 0 || !data.c || typeof data.c !== 'object' || Array.isArray(data.c)) return;
+      const countries = Object.entries(data.c).filter(([code, counts]) =>
+        /^[A-Z]{2}$/.test(code) && code !== 'ZZ' && Array.isArray(counts) && counts[0] > 0
+      ).length;
+      summary.textContent = `${data.t.toLocaleString('en-US')} ${data.t === 1 ? 'pageview' : 'pageviews'} · ${countries} ${countries === 1 ? 'country' : 'countries'}`;
+      summary.hidden = false;
+    } catch {
+      // The map and its statistics link remain useful if the summary fails.
+    } finally {
+      clearTimeout(deadline);
+    }
+  }
+
+  image.addEventListener('load', () => {
     if (settled) return;
+    if (!image.naturalWidth) { unavailable(); return; }
     settled = true;
     clearTimeout(timeout);
-    observer.disconnect();
     section.dataset.state = 'ready';
     map.hidden = false;
-    status.hidden = true;
-  }
-
-  function checkMap() {
-    const image = map.querySelector('img');
-    if (!image) return;
-    if (image.complete) {
-      if (image.naturalWidth > 0) ready();
-      else unavailable();
-      return;
-    }
-    image.addEventListener('load', ready, { once: true });
-    image.addEventListener('error', unavailable, { once: true });
-  }
-
-  const script = document.createElement('script');
-  script.id = 'clustrmaps';
-  script.src = widgetUrl;
-  script.async = true;
-  script.referrerPolicy = 'origin';
-  script.addEventListener('error', unavailable, { once: true });
-  script.addEventListener('load', checkMap, { once: true });
-  observer.observe(map, { childList: true, subtree: true });
-  section.dataset.state = 'loading';
-  map.hidden = false;
-  map.append(script);
+    loadSummary();
+  }, { once: true });
+  image.addEventListener('error', unavailable, { once: true });
+  image.crossOrigin = 'anonymous';
+  image.referrerPolicy = 'origin';
+  image.src = `${provider}/c/${counterId}-map_w.png?pal=ocean&bg=none&zahlen=0&kopf=0&orte=1&plang=en`;
 })();

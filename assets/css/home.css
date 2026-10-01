@@ -166,13 +166,15 @@ footer {
   font-size: 12px;
 }
 .footer-links { display: flex; justify-content: space-between; flex-wrap: wrap; gap: 10px 20px; }
-.global-visitors { width: min(100%, 320px); margin: 24px auto 0; text-align: center; font-size: 11px; }
-.visitors-label { display: flex; justify-content: center; align-items: center; flex-wrap: wrap; gap: 7px; }
-.visitor-map { margin-top: 12px; }
-.visitor-map img, .visitor-map iframe { display: block; max-width: 100%; margin: 0 auto; }
-.visitor-map img { height: auto; }
+.global-visitors { width: min(100%, 360px); margin: 28px auto 0; text-align: center; font-size: 11px; }
+.visitors-label { color: var(--ink); }
+.visitor-map { display: block; margin-top: 12px; }
+.visitor-map img { display: block; width: 100%; height: auto; margin: 0 auto; }
+.visitor-map:focus-visible { outline: 2px solid var(--link); outline-offset: 4px; }
+.visitor-map-summary { margin-top: 10px; font-variant-numeric: tabular-nums; }
+.visitors-note { margin-top: 6px; display: flex; justify-content: center; align-items: center; flex-wrap: wrap; gap: 6px; }
 .visitor-map-status { margin-top: 6px; }
-.visitor-map[hidden], .visitor-map-status[hidden] { display: none; }
+.visitor-map[hidden], .visitor-map-summary[hidden], .visitor-map-status[hidden] { display: none; }
 
 @media (max-width: 700px) {
   .page { width: min(100% - 36px, 960px); }

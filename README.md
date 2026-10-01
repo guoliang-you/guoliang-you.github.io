@@ -6,9 +6,11 @@ This repository is an independent static website. The entry point is `index.html
 
 Publication thumbnails show hand-drawn research overviews. Clicking one opens a viewer with **Hand-drawn** and **Paper figure** tabs; reopening always starts with the hand-drawn image. The viewer is in `assets/js/figures.js`, and optimized illustrations are in `images/research/handdrawn/`. Original paper figures remain at their existing paths.
 
-The footer reuses the original [ClustrMaps](https://clustrmaps.com/) global visitor-map embed, recovered from the old homepage's Git history. Its existing public widget ID is `BCzXnllK7DALNmWsuEPPoh2DRAH282QR2m3XPzLQJkg`; no new counter is created or historical count initialized. `assets/js/visits.js` loads the original embed only on the published domain, never during local previews. The map links to its statistics through the provider's original widget when available.
+The footer uses a [Stats4U world map](https://www.stats4u.net/en/maps), with country shading, approximate city markers, pageviews, country totals, and a link to [public statistics](https://www.stats4u.net/live/6611225750). Its public counter ID is `6611225750`. These are new statistics starting on **1 October 2026**; the unavailable ClustrMaps history has not been imported or recreated.
 
-At the time of restoration, ClustrMaps was unreachable and the old ID was not found on MapMyVisitors. Historical records have not been verified or recovered. The footer gracefully collapses the unavailable map and displays a short status instead of a broken image or fabricated count. A working historical statistics URL or provider export is needed if the original service does not return.
+`assets/js/visits.js` requests the counting SVG image only on `guoliang-you.github.io`, then reads aggregate totals from the provider's public `globedata` endpoint without counting again. Pageviews count page loads, not distinct people. No third-party JavaScript, advertisements, screen measurements, or link-click tracking are embedded. Both requests send only the public origin as their referrer and omit page paths and query strings. The provider derives approximate locations from network requests; see its [privacy policy](https://www.stats4u.net/en/privacy).
+
+Local previews show only `images/visitor-map-preview.svg`, a neutral world map captured from this counter before any recorded visits, with no demo points or invented counts. If the live map cannot load, a short message and the statistics link remain. The private counter-management link is saved separately outside the repository and must never be committed.
 
 ## Local preview
 
