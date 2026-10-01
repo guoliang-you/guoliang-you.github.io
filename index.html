@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#ffffff">
+  <meta name="description" content="Guoliang You focuses on multimodal AI for healthcare, building on research in embodied intelligence and continuing work on foundation models and agents.">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Guoliang You | Research">
+  <meta property="og:description" content="Multimodal AI for healthcare, informed by embodied intelligence and agentic decision-making.">
+  <meta property="og:image" content="https://guoliang-you.github.io/images/android-chrome-512x512.png">
+  <link rel="canonical" href="https://guoliang-you.github.io/">
+  <link rel="icon" type="image/x-icon" href="images/favicon-globe.ico">
+  <link rel="stylesheet" href="assets/css/home.css">
+  <title>Guoliang You | Research</title>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <div class="page" id="top">
+    <nav class="site-nav" aria-label="Page navigation">
+      <a href="#research">Research</a>
+      <a href="#publications">Publications</a>
+      <a href="#experience">Experience</a>
+      <a href="#beyond">Beyond papers</a>
+    </nav>
+
+    <main id="main">
+      <section class="profile" aria-labelledby="name">
+        <div class="identity">
+          <div>
+            <h1 id="name">Guoliang You</h1>
+            <p class="position">Postdoctoral Researcher &middot; University of Pennsylvania</p>
+          </div>
+          <img class="portrait" src="images/android-chrome-512x512.png" alt="Guoliang You" width="512" height="512">
+        </div>
+        <div class="profile-copy">
+          <p>My research studies multimodal AI, from vision-language foundation models to agents that reason and act. My current focus is <strong>multimodal AI for healthcare</strong>, including vision-language pretraining for 3D medical images, multimodal LLMs, and evidence-grounded clinical agents. This direction builds on my Ph.D. research in embodied and autonomous systems, where I studied multi-sensor perception, vision-language reasoning, planning, and reinforcement learning. I remain involved in collaborative work on embodied AI, including vision-language-action learning and language-guided robotics.</p>
+          <p>I received my Ph.D. in Computer Technology from the University of Science and Technology of China (USTC), where I worked in the LINKE Lab with Prof. <a href="http://staff.ustc.edu.cn/~yanyongz/" target="_blank" rel="noopener noreferrer">Yanyong Zhang</a> and Assoc. Prof. <a href="http://staff.ustc.edu.cn/~jianmin/cv.html" target="_blank" rel="noopener noreferrer">Jianmin Ji</a>. I earned my B.E. in Applied Physics from Anhui University of Science and Technology.</p>
+        </div>
+        <p class="profile-links"><a href="mailto:glyou@upenn.edu">Email</a><span>/</span><a href="https://scholar.google.com/citations?user=N9ndx_gAAAAJ" target="_blank" rel="noopener noreferrer">Google Scholar</a><span>/</span><a href="https://github.com/guoliang-you" target="_blank" rel="noopener noreferrer">GitHub</a><span>/</span><a href="https://orcid.org/0000-0002-0964-7279" target="_blank" rel="noopener noreferrer">ORCID</a></p>
+      </section>
+
+      <section class="section research" id="research" aria-labelledby="research-heading">
+        <h2 id="research-heading">Research</h2>
+        <p>My current work has two primary directions in healthcare, alongside continuing collaborations in embodied AI:</p>
+        <ul class="research-topics">
+          <li><strong>Medical vision-language learning</strong> &middot; 3D imaging, anatomy-grounded pretraining, clinical report generation</li>
+          <li><strong>Clinical reasoning and agents</strong> &middot; multimodal LLMs, diagnostic QA, traceable evidence, tool use and verification</li>
+          <li><strong>Embodied AI collaborations</strong> &middot; vision-language-action learning and language-guided robotics, building on earlier work in sensor fusion, planning and reinforcement learning; exploring applications in healthcare</li>
+        </ul>
+      </section>
+
+      <section class="section publications" id="publications" aria-labelledby="publications-heading">
+        <h2 id="publications-heading">Publications</h2>
+        <p class="section-note">Authors are listed in publication order; <strong>Guoliang You</strong> is in bold and * marks equal contribution. Preprints are identified separately from peer-reviewed publications.</p>
+
+        <h3 class="group-heading">Medical AI</h3>
+        <div class="paper-list">
+          <article class="paper">
+            <a class="paper-image" href="images/research/scope.webp" target="_blank" rel="noopener noreferrer" aria-label="Open SCOPE paper figure"><img src="images/research/scope.webp" alt="SCOPE architecture with whole-volume and anatomy-indexed evidence" loading="lazy" width="1800" height="995"></a>
+            <div><h4>Semantically Calibrated Evidence Composition for CT Vision-Language Learning</h4><p class="authors"><strong>Guoliang You</strong>, Haifan Gong, Xiaomeng Chu</p><p class="venue">arXiv preprint, 2026 &middot; <a href="https://arxiv.org/abs/2608.00239" target="_blank" rel="noopener noreferrer">Paper</a></p><p class="paper-summary">Composes anatomy-indexed findings with whole-volume context and calibrates the evidence against a diagnostic summary.</p></div>
+          </article>
+          <article class="paper">
+            <a class="paper-image" href="images/research/spectrum.webp" target="_blank" rel="noopener noreferrer" aria-label="Open Spectrum paper figure"><img src="images/research/spectrum.webp" alt="Spectrum framework for cross-patient disease-burden order" loading="lazy" width="1800" height="844"></a>
+            <div><h4>Learning How Much, Not Just What: Cross-Patient Burden Order for CT Vision-Language Pretraining</h4><p class="authors"><strong>Guoliang You</strong>, Haifan Gong, Xiaomeng Chu</p><p class="venue">arXiv preprint, 2026 &middot; <a href="https://arxiv.org/abs/2608.00231" target="_blank" rel="noopener noreferrer">Paper</a></p><p class="paper-summary">Learns lower-to-higher disease-burden relationships across patients without longitudinal pairs.</p></div>
+          </article>
+          <article class="paper">
+            <a class="paper-image" href="images/research/oka-ct.webp" target="_blank" rel="noopener noreferrer" aria-label="Open OKA-CT paper figure"><img src="images/research/oka-ct.webp" alt="OKA-CT organ-hierarchical vision-language architecture" loading="lazy" width="1800" height="832"></a>
+            <div><h4>Learning Anatomy-Grounded CT Vision-Language Representations with Organ-Hierarchical Report Knowledge</h4><p class="authors"><strong>Guoliang You</strong>, Hongming Li, Yuanwang Zhang, Yong Fan</p><p class="venue">arXiv preprint, 2026 &middot; <a href="https://arxiv.org/abs/2607.10953" target="_blank" rel="noopener noreferrer">Paper</a></p><p class="paper-summary">Links 3D visual features to clinically structured, organ-level report knowledge.</p></div>
+          </article>
+          <article class="paper">
+            <a class="paper-image" href="images/research/ct-report-generation.webp" target="_blank" rel="noopener noreferrer" aria-label="Open CT report generation paper figure"><img src="images/research/ct-report-generation.webp" alt="Organ-aware CT report generation method" loading="lazy" width="1800" height="793"></a>
+            <div><h4>Anatomy-Grounded CT Report Generation Guided by Organ-Hierarchical Clinical Knowledge</h4><p class="authors"><strong>Guoliang You</strong>, Hongming Li, Yuanwang Zhang, Yong Fan</p><p class="venue"><em>Journal of Imaging Informatics in Medicine</em> supplement; SIIM CAIMI, 2026 &middot; <a href="https://siim.org/wp-content/uploads/2026/09/Anatomy-Grounded-CT_You.pdf" target="_blank" rel="noopener noreferrer">Abstract</a></p><p class="paper-summary">Uses organ-aware visual tokens and clinical knowledge to guide CT report generation.</p></div>
+          </article>
+          <article class="paper"><a class="paper-image" href="images/research/ocp-ct.webp" target="_blank" rel="noopener noreferrer" aria-label="Open OCP-CT paper figure"><img src="images/research/ocp-ct.webp" alt="OCP-CT architecture with organ-conditioned pattern tokens and sparse expert routing" loading="lazy" width="1510" height="712"></a><div><h4>Fine-Grained Vision-Language Pretraining with Organ-Conditioned Pattern Tokens for CT Understanding</h4><p class="authors"><strong>Guoliang You</strong>, Xiaomeng Chu</p><p class="venue">arXiv preprint, 2026 &middot; <a href="https://arxiv.org/abs/2607.13892" target="_blank" rel="noopener noreferrer">Paper</a></p><p class="paper-summary">Models radiological patterns conditioned on the organ in which they occur.</p></div></article>
+          <article class="paper"><a class="paper-image" href="images/research/thyroidxagent-report.webp" target="_blank" rel="noopener noreferrer" aria-label="Open ThyroidXAgent paper figure"><img src="images/research/thyroidxagent-report-thumb.webp" alt="ThyroidXAgent workflow from ultrasound input through agent planning and evidence-grounded reporting" loading="lazy" width="809" height="500"></a><div><h4>Auditable Agentic AI for Evidence-Grounded Thyroid Ultrasound Diagnosis and Reporting</h4><p class="authors">Haifan Gong, Shiyu Chen, Bodong Wang, Yuqi Wang, Shijie Wang, <strong>Guoliang You</strong>, Xinyu Xiong, Haowei Wang, Mingzhi Mao, Dexing Kong, Qinghua Liu, Wei Lou, Fei Chen, Guanbin Li</p><p class="venue">Collaborative arXiv preprint, 2026 &middot; <a href="https://arxiv.org/abs/2608.12590" target="_blank" rel="noopener noreferrer">Paper</a></p><p class="paper-summary">Studies traceable evidence and multi-step reasoning for thyroid ultrasound diagnosis.</p></div></article>
+        </div>
+
+        <h3 class="group-heading">Agents and evaluation</h3>
+        <div class="paper-list">
+          <article class="paper"><a class="paper-image" href="images/research/webgamebench.webp" target="_blank" rel="noopener noreferrer" aria-label="Open WebGameBench paper figure"><img src="images/research/webgamebench.webp" alt="WebGameBench pipeline from game specification through coding agent and browser runtime evaluation" loading="lazy" width="830" height="520"></a><div><h4>WebGameBench: Requirement-to-Application Evaluation for Coding Agents via Browser-Native Games</h4><p class="authors">Wenyu Zhang*, <strong>Guoliang You*</strong>, Tianlun, Haotian Zhao, Tianshu Zhu, Haoran Wang, Xiaoxuan Tang, Mingyang Dai, Jingnan Gu, Daxiang Dong, Jianmin Wu</p><p class="venue">arXiv preprint, 2026 &middot; <a href="https://arxiv.org/abs/2605.17637" target="_blank" rel="noopener noreferrer">Paper</a></p><p class="paper-summary">Evaluates the delivered game through real browser interaction, beyond whether its code builds.</p></div></article>
+        </div>
+
+        <h3 class="group-heading">Embodied AI and autonomous systems</h3>
+        <div class="paper-list">
+          <article class="paper"><a class="paper-image" href="images/paper/racformer.png" target="_blank" rel="noopener noreferrer" aria-label="Open RaCFormer paper figure"><img src="images/paper/racformer.png" alt="RaCFormer radar-camera fusion figure" loading="lazy"></a><div><h4>RaCFormer: Towards High-Quality 3D Object Detection via Query-Based Radar-Camera Fusion</h4><p class="authors">Xiaomeng Chu, Jiajun Deng, <strong>Guoliang You</strong>, Yifan Duan, Houqiang Li, Yanyong Zhang</p><p class="venue">CVPR, 2025 &middot; <a href="https://arxiv.org/abs/2412.12725" target="_blank" rel="noopener noreferrer">Paper</a></p><p class="paper-summary">Fuses radar and camera evidence through object queries for 3D detection.</p></div></article>
+          <article class="paper"><a class="paper-image" href="images/paper/GraspCoT.png" target="_blank" rel="noopener noreferrer" aria-label="Open GraspCoT paper figure"><img src="images/paper/GraspCoT.png" alt="GraspCoT language-guided grasping figure" loading="lazy"></a><div><h4>GraspCoT: Integrating Physical Property Reasoning for 6-DoF Grasping under Flexible Language Instructions</h4><p class="authors">Xiaomeng Chu, Jiajun Deng, <strong>Guoliang You</strong>, Wei Liu, Xingchen Li, Jianmin Ji, Yanyong Zhang</p><p class="venue">ICCV, 2025 &middot; <a href="https://arxiv.org/abs/2503.16013" target="_blank" rel="noopener noreferrer">Paper</a></p><p class="paper-summary">Reasons about object properties to ground flexible language instructions in robotic grasps.</p></div></article>
+          <article class="paper"><a class="paper-image" href="images/paper/VLMPlanner.png" target="_blank" rel="noopener noreferrer" aria-label="Open VLMPlanner paper figure"><img src="images/paper/VLMPlanner.png" alt="VLMPlanner motion planning figure" loading="lazy"></a><div><h4>VLMPlanner: Integrating Visual Language Models with Motion Planning</h4><p class="authors">Zhipeng Tang, Sha Zhang, Jiajun Deng, Chenjie Wang, <strong>Guoliang You</strong>, Yuting Huang, Xinrui Lin, Yanyong Zhang</p><p class="venue">ACM Multimedia, 2025 &middot; <a href="https://arxiv.org/abs/2507.20342" target="_blank" rel="noopener noreferrer">Paper</a></p><p class="paper-summary">Connects visual-language scene understanding with robot motion planning.</p></div></article>
+          <article class="paper"><a class="paper-image" href="images/paper/lfp.png" target="_blank" rel="noopener noreferrer" aria-label="Open LFP paper figure"><img src="images/paper/lfp.png" alt="LFP lane-level camera-LiDAR planning figure" loading="lazy"></a><div><h4>LFP: Efficient and Accurate End-to-End Lane-Level Planning via Camera-LiDAR Fusion</h4><p class="authors"><strong>Guoliang You</strong>, Xiaomeng Chu, Yifan Duan, Xingchen Li, Sha Zhang, Jianmin Ji, Yanyong Zhang</p><p class="venue">arXiv preprint, 2024 &middot; <a href="https://arxiv.org/abs/2409.14170" target="_blank" rel="noopener noreferrer">Paper</a></p><p class="paper-summary">Combines camera and LiDAR features for lane-level planning in autonomous driving.</p></div></article>
+          <article class="paper"><a class="paper-image" href="images/paper/php.png" target="_blank" rel="noopener noreferrer" aria-label="Open Perception Helps Planning paper figure"><img src="images/paper/php.png" alt="Perception Helps Planning method figure" loading="lazy"></a><div><h4>Perception Helps Planning: Facilitating Multi-Stage Lane-Level Integration via Double-Edge Data Structures</h4><p class="authors"><strong>Guoliang You</strong>, Xiaomeng Chu, Yifan Duan, Wenyu Zhang, Xingchen Li, Sha Zhang, Yao Li, Jianmin Ji, Yanyong Zhang</p><p class="venue">IEEE Robotics and Automation Letters, 2024 &middot; <a href="https://arxiv.org/abs/2407.11644" target="_blank" rel="noopener noreferrer">Paper</a></p><p class="paper-summary">Uses structured perception output to connect lane-level mapping and route planning.</p></div></article>
+          <article class="paper"><a class="paper-image" href="images/paper/p3o.png" target="_blank" rel="noopener noreferrer" aria-label="Open P3O paper figure"><img src="images/paper/p3o.png" alt="P3O visual-representation transfer for reinforcement learning" loading="lazy"></a><div><h4>P<sup>3</sup>O: Transferring Visual Representations for Reinforcement Learning via Prompting</h4><p class="authors"><strong>Guoliang You</strong>, Xiaomeng Chu, Yifan Duan, Jie Peng, Jianmin Ji, Yu Zhang, Yanyong Zhang</p><p class="venue">ICME, 2023 &middot; <a href="https://arxiv.org/abs/2303.12371" target="_blank" rel="noopener noreferrer">Paper</a></p><p class="paper-summary">Transfers pretrained visual features into reinforcement learning through prompting.</p></div></article>
+          <article class="paper"><a class="paper-image" href="images/paper/CalibWorkflow.png" target="_blank" rel="noopener noreferrer" aria-label="Open CalibWorkflow paper figure"><img src="images/paper/CalibWorkflow.png" alt="CalibWorkflow cross-sensor calibration figure" loading="lazy"></a><div><h4>CalibWorkflow: A General MLLM-Guided Workflow for Centimeter-Level Cross-Sensor Calibration</h4><p class="authors">Xingchen Li, Wuyang Zhang, <strong>Guoliang You</strong>, Xiaomeng Chu, Wenhao Yu, Yifan Duan, Yuxuan Xiao, Yanyong Zhang</p><p class="venue">ACM Multimedia, 2025 &middot; <a href="https://doi.org/10.1145/3746027.3755767" target="_blank" rel="noopener noreferrer">Paper</a></p><p class="paper-summary">Uses a multimodal LLM to guide a cross-sensor calibration workflow.</p></div></article>
+          <article class="paper"><a class="paper-image" href="images/paper/rayformer.png" target="_blank" rel="noopener noreferrer" aria-label="Open RayFormer paper figure"><img src="images/paper/rayformer.png" alt="RayFormer ray-centric multi-camera 3D detection architecture" loading="lazy"></a><div><h4>RayFormer: Improving Query-Based Multi-Camera 3D Object Detection via Ray-Centric Strategies</h4><p class="authors">Xiaomeng Chu, Jiajun Deng, <strong>Guoliang You</strong>, Yifan Duan, Yao Li, Yanyong Zhang</p><p class="venue">ACM Multimedia, 2024 &middot; <a href="https://arxiv.org/abs/2407.14923" target="_blank" rel="noopener noreferrer">Paper</a></p><p class="paper-summary">Places and samples object queries along camera rays to reduce ambiguous features.</p></div></article>
+          <article class="paper"><a class="paper-image" href="images/paper/cellmap.png" target="_blank" rel="noopener noreferrer" aria-label="Open CELLmap paper figure"><img src="images/paper/cellmap.png" alt="CELLmap spherical map representation and LiDAR SLAM pipeline" loading="lazy"></a><div><h4>CELLmap: Enhancing LiDAR SLAM through Elastic and Lightweight Spherical Map Representation</h4><p class="authors">Yifan Duan, Xinran Zhang, Yao Li, <strong>Guoliang You</strong>, Xiaomeng Chu, Jianmin Ji, Yanyong Zhang</p><p class="venue">ICRA, 2025 &middot; <a href="https://arxiv.org/abs/2409.19597" target="_blank" rel="noopener noreferrer">Paper</a></p><p class="paper-summary">Builds a compact spherical map representation for LiDAR localization and mapping.</p></div></article>
+          <article class="paper"><a class="paper-image" href="images/paper/edgecalib.png" target="_blank" rel="noopener noreferrer" aria-label="Open EdgeCalib paper figure"><img src="images/paper/edgecalib.png" alt="EdgeCalib multi-frame LiDAR and camera edge matching pipeline" loading="lazy"></a><div><h4>EdgeCalib: Multi-Frame Weighted Edge Features for Automatic Targetless LiDAR-Camera Calibration</h4><p class="authors">Xingchen Li, Yifan Duan, Beibei Wang, Haojie Ren, <strong>Guoliang You</strong>, Yu Sheng, Jianmin Ji, Yanyong Zhang</p><p class="venue">IEEE Robotics and Automation Letters, 2024 &middot; <a href="https://arxiv.org/abs/2310.16629" target="_blank" rel="noopener noreferrer">Paper</a></p><p class="paper-summary">Matches weighted edge features across frames to calibrate LiDAR and camera without a target.</p></div></article>
+          <article class="paper"><a class="paper-image" href="images/paper/terra.png" target="_blank" rel="noopener noreferrer" aria-label="Open LiDAR calibration paper figure"><img src="images/paper/terra.png" alt="TERRA spherical descriptor for multi-LiDAR rotation initialization" loading="lazy"></a><div><h4>Rotation Initialization and Stepwise Refinement for Universal LiDAR Calibration</h4><p class="authors">Yifan Duan, Xinran Zhang, <strong>Guoliang You</strong>, Yilong Wu, Xingchen Li, Yao Li, Xiaomeng Chu, Jie Peng, Yu Zhang, Jianmin Ji, Yanyong Zhang</p><p class="venue">arXiv preprint, 2024 &middot; <a href="https://arxiv.org/abs/2405.05589" target="_blank" rel="noopener noreferrer">Paper</a></p><p class="paper-summary">Initializes multi-LiDAR rotation with a spherical descriptor, then refines extrinsic calibration.</p></div></article>
+          <article class="paper"><a class="paper-image" href="images/research/electricsight.webp" target="_blank" rel="noopener noreferrer" aria-label="Open ElectricSight paper figure"><img src="images/research/electricsight.webp" alt="ElectricSight pipeline for detecting hazards and measuring clearance near power lines" loading="lazy" width="1070" height="332"></a><div><h4>ElectricSight: 3D Hazard Monitoring for Power Lines Using Low-Cost Sensors</h4><p class="authors">Xingchen Li, Lidian Wang, Yu Sheng, Zhipeng Tang, Haojie Ren, <strong>Guoliang You</strong>, Yifan Duan, Jianmin Ji, Yanyong Zhang</p><p class="venue">arXiv preprint, 2025 &middot; <a href="https://arxiv.org/abs/2505.06573" target="_blank" rel="noopener noreferrer">Paper</a></p><p class="paper-summary">Combines image-based hazard detection with 3D scene priors to estimate power-line clearance.</p></div></article>
+        </div>
+      </section>
+
+      <section class="section" id="experience" aria-labelledby="experience-heading">
+        <h2 id="experience-heading">Experience</h2>
+        <div class="experience-list">
+          <div class="experience-row"><div><strong>University of Pennsylvania</strong><span>Postdoctoral Researcher &middot; Philadelphia, PA</span></div><time>2025&ndash;present</time></div>
+          <div class="experience-row"><div><strong>LimX Dynamics</strong><span>Research Intern, multimodal foundation models and vision-language-action learning &middot; Beijing</span></div><time>2025</time></div>
+          <div class="experience-row"><div><strong>University of Science and Technology of China (USTC)</strong><span>Ph.D. in Computer Technology, LINKE Lab &middot; Hefei</span><span>Advisors: Prof. Yanyong Zhang and Assoc. Prof. Jianmin Ji</span></div><time>2019&ndash;2025</time></div>
+          <div class="experience-row"><div><strong>AI Research Institute, Hefei Comprehensive National Science Center</strong><span>Research Intern, reinforcement learning and sim-to-real autonomous driving &middot; Hefei</span></div><time>2022&ndash;2023</time></div>
+          <div class="experience-row"><div><strong>Anhui University of Science and Technology</strong><span>Bachelor's degree in Applied Physics &middot; Huainan</span></div><time>2014&ndash;2018</time></div>
+        </div>
+      </section>
+
+      <section class="section beyond" id="beyond" aria-labelledby="beyond-heading">
+        <h2 id="beyond-heading">Beyond papers</h2>
+        <p>Some of the most memorable parts of my research happened away from a desk: building platforms, testing them outside, and learning what changes when a model meets a physical system. These photos are from that part of my journey.</p>
+        <div class="photo-grid">
+          <figure><a href="images/sonic_v1.jpg" target="_blank" rel="noopener noreferrer" aria-label="Open first-generation autonomous vehicle photo"><img src="images/sonic_v1.jpg" alt="Guoliang with an early autonomous vehicle research platform" loading="lazy"></a><figcaption>First-generation autonomous vehicle platform</figcaption></figure>
+          <figure><a href="images/sonic_v2.jpg" target="_blank" rel="noopener noreferrer" aria-label="Open second-generation autonomous vehicle photo"><img src="images/sonic_v2.jpg" alt="Second-generation autonomous vehicle with upgraded sensors" loading="lazy"></a><figcaption>Second-generation platform with upgraded sensors</figcaption></figure>
+          <figure><a href="images/ad_vehicle.jpg" target="_blank" rel="noopener noreferrer" aria-label="Open autonomous vehicle test photo"><img src="images/ad_vehicle.jpg" alt="Outdoor autonomous vehicle test with researchers" loading="lazy"></a><figcaption>Autonomous vehicle testing outdoors</figcaption></figure>
+          <figure class="photo-portrait"><a href="images/arm_single.png" target="_blank" rel="noopener noreferrer" aria-label="Open single-arm robot photo"><img src="images/arm_single.png" alt="Single-arm robotic platform in a research workspace" loading="lazy"></a><figcaption>Single-arm robotic platform</figcaption></figure>
+          <figure class="photo-portrait"><a href="images/arm_dual.jpg" target="_blank" rel="noopener noreferrer" aria-label="Open dual-arm robot photo"><img src="images/arm_dual.jpg" alt="Dual-arm robot in a research workspace" loading="lazy"></a><figcaption>Dual-arm robotic platform</figcaption></figure>
+          <figure class="photo-portrait"><a href="images/drone_with_arm.jpg" target="_blank" rel="noopener noreferrer" aria-label="Open drone with robotic arm photo"><img src="images/drone_with_arm.jpg" alt="Drone carrying a robotic arm for grasping research" loading="lazy"></a><figcaption>Drone-robotic arm grasping platform</figcaption></figure>
+        </div>
+      </section>
+    </main>
+
+    <footer><span>&copy; 2026 Guoliang You</span><a href="mailto:glyou@upenn.edu">glyou@upenn.edu</a><a href="#top">Back to top &uarr;</a></footer>
+  </div>
+</body>
+</html>
