@@ -4,6 +4,8 @@ Personal academic website covering multimodal AI for healthcare, clinical reason
 
 This repository is an independent static website. The entry point is `index.html`; styling is in `assets/css/home.css`.
 
+Publication thumbnails show hand-drawn research overviews. Clicking one opens a viewer with **Hand-drawn** and **Paper figure** tabs; reopening always starts with the hand-drawn image. The viewer is in `assets/js/figures.js`, and optimized illustrations are in `images/research/handdrawn/`. Original paper figures remain at their existing paths.
+
 ## Local preview
 
 ```sh

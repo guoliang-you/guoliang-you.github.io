@@ -20,6 +20,7 @@ h1, h2, h3, h4, p, figure { margin: 0; }
 a { color: var(--link); text-decoration: none; }
 a:hover { text-decoration: underline; }
 a:focus-visible { outline: 2px solid var(--link); outline-offset: 3px; }
+button:focus-visible { outline: 2px solid var(--link); outline-offset: 3px; }
 .page { width: min(100% - 56px, 960px); margin: 0 auto; }
 .skip-link { position: absolute; left: 20px; top: -100px; padding: 8px 12px; background: #fff; z-index: 10; }
 .skip-link:focus { top: 8px; }
@@ -62,6 +63,7 @@ h1 { font-size: 34px; font-weight: 400; line-height: 1.2; }
 .research-topics { margin: 13px 0 0; padding-left: 20px; }
 .research-topics li { margin-top: 3px; }
 .section-note { color: var(--muted); font-size: 13px; }
+.figure-note { margin-top: 6px; }
 .group-heading { margin: 29px 0 5px; font-size: 16px; font-weight: 700; }
 .paper-list { border-bottom: 1px solid var(--rule); }
 .paper {
@@ -73,11 +75,13 @@ h1 { font-size: 34px; font-weight: 400; line-height: 1.2; }
 }
 .paper-image {
   display: flex;
+  align-self: start;
   width: 180px;
-  height: 110px;
+  height: auto;
+  aspect-ratio: 16 / 9;
   align-items: center;
   justify-content: center;
-  background: #f7f8f9;
+  background: #fff;
   border: 1px solid #eceff1;
 }
 .paper-image:hover { border-color: #9eb4c4; }
@@ -90,6 +94,51 @@ h1 { font-size: 34px; font-weight: 400; line-height: 1.2; }
 .venue { color: var(--muted); }
 .paper-summary { color: #4d555c; }
 .paper-text-only { display: block; padding-left: 204px; }
+
+body.figure-viewer-open { overflow: hidden; }
+.figure-viewer {
+  width: min(1120px, calc(100% - 40px));
+  max-height: calc(100vh - 40px);
+  max-height: calc(100dvh - 40px);
+  padding: 22px 26px;
+  border: 1px solid #cfd6db;
+  background: #fff;
+  color: var(--ink);
+  font: inherit;
+  overflow: auto;
+}
+.figure-viewer::backdrop { background: rgba(20, 28, 35, .58); }
+.figure-header { display: flex; align-items: flex-start; justify-content: space-between; gap: 24px; }
+.figure-header h2 { font-size: 16px; font-weight: 400; line-height: 1.5; padding-top: 5px; }
+.figure-close {
+  flex: none;
+  padding: 0 6px;
+  border: 0;
+  background: transparent;
+  color: var(--muted);
+  font: inherit;
+  font-size: 28px;
+  line-height: 1.2;
+  cursor: pointer;
+}
+.figure-close:hover { color: var(--ink); }
+.figure-tabs { display: flex; gap: 25px; border-bottom: 1px solid var(--rule); margin-top: 14px; }
+.figure-tabs button {
+  padding: 9px 1px 10px;
+  border: 0;
+  border-bottom: 2px solid transparent;
+  background: transparent;
+  color: var(--muted);
+  font: inherit;
+  font-size: 13px;
+  cursor: pointer;
+}
+.figure-tabs button[aria-selected="true"] { color: var(--link); border-bottom-color: var(--link); }
+.figure-panel { display: grid; place-items: center; min-height: 150px; padding: 16px 0; }
+.figure-panel img { display: block; width: 100%; height: auto; max-height: 65vh; object-fit: contain; }
+.figure-panel img[hidden], .figure-status[hidden] { display: none; }
+.figure-status { color: var(--muted); font-size: 13px; }
+.figure-footer { display: flex; justify-content: space-between; flex-wrap: wrap; gap: 5px 18px; font-size: 12px; color: var(--muted); }
 
 .experience-list { border-bottom: 1px solid var(--rule); }
 .experience-row {
@@ -132,7 +181,7 @@ footer {
   .profile-copy { margin-top: 18px; }
   .section { padding: 24px 0 28px; }
   .paper { grid-template-columns: 140px minmax(0, 1fr); gap: 15px; }
-  .paper-image { width: 140px; height: 94px; }
+  .paper-image { width: 140px; }
   .paper-text-only { padding-left: 155px; }
   .photo-grid { gap: 10px; }
 }
@@ -147,13 +196,18 @@ footer {
   .profile-links { gap: 0 7px; }
   .section h2 { font-size: 19px; }
   .paper { grid-template-columns: 1fr; gap: 9px; padding: 18px 0; }
-  .paper-image { width: 160px; height: 92px; }
+  .paper-image { width: 180px; }
   .paper-text-only { padding-left: 0; }
   .paper h4 { font-size: 13px; }
   .authors, .venue, .paper-summary { font-size: 12px; }
   .experience-row { display: block; }
   .experience-row time { display: block; margin-top: 3px; }
   .photo-grid { grid-template-columns: 1fr 1fr; gap: 14px; }
+  .figure-viewer { width: calc(100% - 20px); max-height: calc(100dvh - 20px); padding: 15px; }
+  .figure-header { gap: 12px; }
+  .figure-header h2 { font-size: 14px; }
+  .figure-panel { padding: 12px 0; }
+  .figure-tabs { margin-top: 9px; }
 }
 
 @media (max-width: 360px) {
