@@ -1,44 +1,67 @@
 (() => {
   'use strict';
 
-  const stats = document.getElementById('site-visits');
-  const count = document.getElementById('visits-count');
-  if (!stats || !count) return;
+  const section = document.getElementById('global-visitors');
+  const map = document.getElementById('visitor-map');
+  const status = document.getElementById('visitor-map-status');
+  if (!section || !map || !status) return;
 
-  // Local previews never contact the counter or add to the public total.
+  // Keep the original public widget ID; never create or reset a counter.
+  const widgetUrl = 'https://clustrmaps.com/map_v2.js?d=BCzXnllK7DALNmWsuEPPoh2DRAH282QR2m3XPzLQJkg&cl=ffffff&w=a';
+
+  // Previewing locally must not add visits to the historical record.
   if (location.hostname !== 'guoliang-you.github.io') {
-    stats.dataset.state = 'preview';
-    stats.title = 'Visit counts are available on the live website.';
+    section.dataset.state = 'preview';
+    section.title = 'The visitor map loads on the published website.';
     return;
   }
 
-  const controller = new AbortController();
-  const timeout = setTimeout(() => controller.abort(), 8000);
-  stats.dataset.state = 'loading';
+  let settled = false;
+  const observer = new MutationObserver(checkMap);
+  const timeout = setTimeout(unavailable, 8000);
 
-  // Send only the canonical public URL; omit cookies, query strings and referrers.
-  // Read JSON directly instead of executing a third-party counter script.
-  fetch('https://cdn.busuanzi.cc/api.php', {
-    method: 'POST',
-    body: JSON.stringify({ url: 'https://guoliang-you.github.io/', referrer: '' }),
-    credentials: 'omit',
-    referrerPolicy: 'no-referrer',
-    signal: controller.signal,
-  })
-    .then((response) => {
-      if (!response.ok) throw new Error('Counter unavailable');
-      return response.json();
-    })
-    .then((data) => {
-      const total = data.busuanzi_site_pv;
-      if (!Number.isSafeInteger(total) || total < 1) throw new Error('Invalid count');
-      count.textContent = new Intl.NumberFormat('en-US').format(total);
-      stats.dataset.state = 'ready';
-    })
-    .catch(() => {
-      // Keep an honest placeholder when the service is blocked or unavailable.
-      stats.dataset.state = 'unavailable';
-      stats.title = 'Visit statistics are temporarily unavailable.';
-    })
-    .finally(() => clearTimeout(timeout));
+  function unavailable() {
+    if (settled) return;
+    settled = true;
+    clearTimeout(timeout);
+    observer.disconnect();
+    section.dataset.state = 'unavailable';
+    map.hidden = true;
+    status.textContent = 'Visitor map temporarily unavailable.';
+    status.hidden = false;
+  }
+
+  function ready() {
+    if (settled) return;
+    settled = true;
+    clearTimeout(timeout);
+    observer.disconnect();
+    section.dataset.state = 'ready';
+    map.hidden = false;
+    status.hidden = true;
+  }
+
+  function checkMap() {
+    const image = map.querySelector('img');
+    if (!image) return;
+    if (image.complete) {
+      if (image.naturalWidth > 0) ready();
+      else unavailable();
+      return;
+    }
+    image.addEventListener('load', ready, { once: true });
+    image.addEventListener('error', unavailable, { once: true });
+  }
+
+  const script = document.createElement('script');
+  script.id = 'clustrmaps';
+  script.src = widgetUrl;
+  script.async = true;
+  script.referrerPolicy = 'origin';
+  script.addEventListener('error', unavailable, { once: true });
+  script.addEventListener('load', checkMap, { once: true });
+  observer.observe(map, { childList: true, subtree: true });
+  section.dataset.state = 'loading';
+  map.hidden = false;
+  map.append(script);
 })();
