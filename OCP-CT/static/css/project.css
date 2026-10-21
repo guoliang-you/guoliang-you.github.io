@@ -48,14 +48,24 @@ sup { font-size: 0.65em; line-height: 0; vertical-align: super; }
   font-size: 20px;
   font-weight: 500;
 }
-.author-block { display: inline-block; }
-.author-block a { font-weight: 600; }
+.author-block { display: inline-block; font-weight: 600; }
 .author-block sup { margin-left: 3px; }
 .publication-affiliations { font-size: 17px; line-height: 1.65; }
 .publication-affiliations p { margin: 0; }
 .publication-affiliations sup { margin-right: 4px; }
 .author-note { margin: 10px 0 0; color: var(--text-secondary); font-size: 13px; }
 .author-note sup { margin-right: 3px; }
+.project-status {
+  display: inline-block;
+  margin: 22px 0 0;
+  padding: 7px 18px;
+  border: 1px solid var(--border-color);
+  border-radius: 999px;
+  background: var(--background-secondary);
+  color: var(--text-secondary);
+  font-size: 15px;
+  font-weight: 500;
+}
 
 .abstract-section {
   padding: 46px 24px 52px;
