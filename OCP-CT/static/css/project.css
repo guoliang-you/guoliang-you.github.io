@@ -69,9 +69,7 @@ sup { font-size: 0.65em; line-height: 0; vertical-align: super; }
 
 .abstract-section {
   padding: 46px 24px 52px;
-  background: var(--background-secondary);
-  border-top: 1px solid var(--border-color);
-  border-bottom: 1px solid var(--border-color);
+  background: var(--background-primary);
 }
 .abstract-container { max-width: 800px; margin: 0 auto; }
 .section-title {
@@ -101,13 +99,6 @@ sup { font-size: 0.65em; line-height: 0; vertical-align: super; }
   text-align: justify;
 }
 .abstract-content p { margin: 0; }
-.footer {
-  padding: 28px 24px;
-  color: var(--text-secondary);
-  font-size: 12px;
-  text-align: center;
-}
-.footer p { max-width: 800px; margin: 0 auto; }
 
 @media (max-width: 768px) {
   .hero-body { padding: 44px 24px 36px; }
