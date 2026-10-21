@@ -3,53 +3,54 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="theme-color" content="#fafbfc">
-  <meta name="description" content="Fine-Grained Vision-Language Pretraining with Organ-Conditioned Pattern Tokens for CT Understanding. Project page coming soon.">
+  <meta name="theme-color" content="#ffffff">
+  <meta name="description" content="Fine-Grained Vision-Language Pretraining with Organ-Conditioned Pattern Tokens for CT Understanding">
+  <meta name="author" content="Guoliang You, Xiaomeng Chu">
+  <meta name="citation_title" content="Fine-Grained Vision-Language Pretraining with Organ-Conditioned Pattern Tokens for CT Understanding">
+  <meta name="citation_author" content="You, Guoliang">
+  <meta name="citation_author" content="Chu, Xiaomeng">
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="Fine-Grained Vision-Language Pretraining with Organ-Conditioned Pattern Tokens for CT Understanding">
+  <meta property="og:description" content="Fine-Grained Vision-Language Pretraining with Organ-Conditioned Pattern Tokens for CT Understanding">
+  <meta property="og:url" content="https://guoliang-you.github.io/OCP-CT/">
   <link rel="canonical" href="https://guoliang-you.github.io/OCP-CT/">
-  <title>OCP-CT | Coming soon</title>
-  <style>
-    * { box-sizing: border-box; }
-    body {
-      margin: 0;
-      min-height: 100vh;
-      min-height: 100svh;
-      display: grid;
-      place-items: center;
-      padding: 48px 24px;
-      background: #fafbfc;
-      color: #172a3a;
-      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-      text-align: center;
-    }
-    main { width: min(100%, 900px); }
-    .project {
-      margin: 0 0 24px;
-      color: #426a7c;
-      font-size: 14px;
-      font-weight: 650;
-      letter-spacing: 0.16em;
-    }
-    h1 {
-      margin: 0;
-      font-size: clamp(28px, 4.5vw, 48px);
-      font-weight: 650;
-      line-height: 1.22;
-      letter-spacing: -0.025em;
-      text-wrap: balance;
-    }
-    .status {
-      margin: 36px 0 0;
-      color: #596b79;
-      font-size: 20px;
-      line-height: 1.5;
-    }
-  </style>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="static/css/project.css">
+  <title>Fine-Grained Vision-Language Pretraining with Organ-Conditioned Pattern Tokens for CT Understanding</title>
 </head>
 <body>
   <main>
-    <p class="project">OCP-CT</p>
-    <h1>Fine-Grained Vision-Language Pretraining with Organ-Conditioned Pattern Tokens for CT Understanding</h1>
-    <p class="status">Coming soon</p>
+    <header class="hero publication-header">
+      <div class="hero-body container">
+        <h1 class="publication-title">Fine-Grained Vision-Language Pretraining with Organ-Conditioned Pattern Tokens for CT Understanding</h1>
+        <p class="publication-authors">
+          <span class="author-block"><a href="https://guoliang-you.github.io/">Guoliang You</a><sup>1</sup></span>
+          <span class="author-block"><a href="https://openreview.net/profile?id=~Xiaomeng_Chu1">Xiaomeng Chu</a><sup>2,*</sup></span>
+        </p>
+        <div class="publication-affiliations">
+          <p><sup>1</sup>University of Pennsylvania, USA</p>
+          <p><sup>2</sup>Yale University, USA</p>
+        </div>
+        <p class="author-note"><sup>*</sup>Corresponding author</p>
+      </div>
+    </header>
+
+    <section class="abstract-section" aria-labelledby="abstract-heading">
+      <div class="abstract-container">
+        <h2 id="abstract-heading" class="section-title">Abstract</h2>
+        <div class="abstract-content">
+          <p>Computed tomography (CT) vision-language pretraining from paired volumes and radiology reports is a scalable yet challenging task. Existing methods commonly adopt global scan-report contrast, which is scalable but obscures heterogeneous organ evidence. Meanwhile, direct organ-level alignment remains coarse, since the same anatomy can exhibit multiple distinct radiological appearances. Therefore, pretraining requires a finer alignment unit: the organ-conditioned radiological pattern. In this work, we propose OCP-CT, an organ-conditioned pattern-token alignment framework for CT vision-language pretraining. Specifically, OCP-CT preserves a stable global CT-report contrastive branch and introduces an organ pattern interface: sparse Mixture-of-Experts (MoE) routes image and text tokens according to latent radiological patterns, learnable slots query the routed tokens into continuous pattern tokens, and paired token contrast aligns image-text pattern tokens with structured soft targets built from report-derived clinical similarity. On the publicly available CT-RATE and RAD-ChestCT benchmarks, OCP-CT achieves average AUROCs of 84.5% and 69.9% for zero-shot abnormality diagnosis, respectively. Compared with the strongest prior reported results, these results yield absolute AUROC gains of 6.7 and 0.8 percentage points.</p>
+        </div>
+      </div>
+    </section>
   </main>
+
+  <footer class="footer">
+    <p>Adapted from the <a href="https://github.com/eliahuhorwitz/Academic-project-page-template">Academic Project Page Template</a>
+      and <a href="https://nerfies.github.io/">Nerfies</a>.
+      Website template: <a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>.</p>
+  </footer>
 </body>
 </html>
