@@ -31,11 +31,14 @@ sup { font-size: 0.65em; line-height: 0; vertical-align: super; }
 .hero-body { padding: 12px 0 36px; text-align: center; }
 .publication-title {
   margin: 0 0 24px;
-  font-size: 40px;
+  font-size: 36px;
   font-weight: 500;
   line-height: 1.35;
   letter-spacing: -0.02em;
   text-wrap: balance;
+}
+@media (min-width: 1000px) {
+  .title-line { display: block; }
 }
 .publication-authors {
   display: flex;
